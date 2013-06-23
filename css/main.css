@@ -717,6 +717,7 @@ textarea {
 
 .page__header > p {
   margin: 0;
+  font-style: italic;
 }
 
 .page__header__logo {

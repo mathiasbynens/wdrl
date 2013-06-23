@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Anselm Hannemann -- Creator, Project Lead -- @helloanselm
 
 # THANKS
 

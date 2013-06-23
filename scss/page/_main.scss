@@ -1,0 +1,40 @@
+.page__main {
+
+}
+
+/* Sign Up Form */
+
+	.form__signup--poweredby {
+		color: $grey-mid;
+
+		a {
+			color: $grey-mid;
+		}
+	}
+
+	.form__signup--legal {
+		margin: 2rem 0 0 0;
+		font-size: 0.875rem;
+	}
+
+	.form__signup--email {
+		padding: 0.75rem;
+		border: 1px solid #111;
+
+		-webkit-appearance: none;
+		   -moz-appearance: none;
+		    -ms-appearance: none;
+		        appearance: none;
+	}
+
+	.form__signup--submit {
+		margin: 0.25rem 0 0.25rem 0;
+		padding: 0.75rem 2rem;
+
+		font-family: $fontMain;
+		background: #111;
+		color: #fff;
+		border: 0;
+		border-radius: 4px;
+		text-shadow: none;
+	}

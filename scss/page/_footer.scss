@@ -1,0 +1,16 @@
+.page_footer {
+
+
+}
+
+
+	.page__footer--byline {
+		margin: 0;
+
+		font-size: 0.75em;
+		color: $grey-mid;
+
+		> a {
+			color: $grey-mid;
+		}
+	}

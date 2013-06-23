@@ -1,5 +1,9 @@
 .page__header {
 
+	> h1,
+	> p {
+
+	}
 
 	> p {
 		margin: 0;
@@ -7,4 +11,19 @@
 
 }
 
+	.page__header__logo {
+		display: inline-block;
+		width: 5rem;
+		height: 5rem;
 
+		border-radius: 50%;
+		text-align: center;
+		background: $colorDark;
+		color: $colorBright;
+
+		> p {
+			position: relative;
+			display: inline-block;
+			margin: 1.6rem 0 0 0;
+		}
+	}

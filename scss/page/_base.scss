@@ -24,7 +24,6 @@ html {
 
 body {
 	font-family: $fontMain;
-
 	font-size: 1.25em;
 	line-height: 1.4;
 	text-align: center;
@@ -38,10 +37,13 @@ a {
 .page__header,
 .page__main,
 .page__footer {
-	max-width: 40em;
+	max-width: 37.5em;
 	margin: 0 auto;
 	padding: 1em 1em 1em 1em;
+}
 
+.page__header,
+.page__main {
 	background: #fff;
 }
 

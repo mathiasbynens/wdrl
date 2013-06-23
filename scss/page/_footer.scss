@@ -1,16 +1,26 @@
-.page_footer {
+.page__footer {
+	margin: 5rem auto 1rem auto;
 
-
+	font-size: 1rem;
+	text-align: left;
 }
 
+	.footer__author {
+		height: 112px;
+		height: 7rem;
+		width: 112px;
+		width: 7rem;
+		top: 1.1rem;
+		margin-right: 16px;
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+		position: relative;
+		float: left;
+		background: url(../img/anselmhannemann-1.jpg);
+		background-size: cover;
+		border-radius: 50%;
 
-	.page__footer--byline {
-		margin: 0;
-
-		font-size: 0.75em;
-		color: $grey-mid;
-
-		> a {
-			color: $grey-mid;
+		> img {
+			display: none;
 		}
 	}

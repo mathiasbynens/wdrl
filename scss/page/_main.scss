@@ -14,7 +14,7 @@
 
 	.form__signup--legal {
 		margin: 2rem 0 0 0;
-		font-size: 0.875rem;
+		font-size: 1rem;
 	}
 
 	.form__signup--email {
@@ -32,7 +32,7 @@
 		padding: 0.75rem 2rem;
 
 		font-family: $fontMain;
-		background: #111;
+		background: $buttonPositive;
 		color: #fff;
 		border: 0;
 		border-radius: 4px;

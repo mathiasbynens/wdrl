@@ -628,7 +628,7 @@ textarea {
 }
 
 html {
-  background: #f1f1f1;
+  background: white;
 }
 
 body {
@@ -645,9 +645,13 @@ a {
 .page__header,
 .page__main,
 .page__footer {
-  max-width: 40em;
+  max-width: 37.5em;
   margin: 0 auto;
   padding: 1em 1em 1em 1em;
+}
+
+.page__header,
+.page__main {
   background: #fff;
 }
 
@@ -715,6 +719,21 @@ textarea {
   margin: 0;
 }
 
+.page__header__logo {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  background: #2e2e2e;
+  color: white;
+}
+.page__header__logo > p {
+  position: relative;
+  display: inline-block;
+  margin: 1.6rem 0 0 0;
+}
+
 /* Sign Up Form */
 .form__signup--poweredby {
   color: #999999;
@@ -725,7 +744,7 @@ textarea {
 
 .form__signup--legal {
   margin: 2rem 0 0 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .form__signup--email {
@@ -741,20 +760,36 @@ textarea {
   margin: 0.25rem 0 0.25rem 0;
   padding: 0.75rem 2rem;
   font-family: "leitura-news", Georgia, serif;
-  background: #111;
+  background: #019875;
   color: #fff;
   border: 0;
   border-radius: 4px;
   text-shadow: none;
 }
 
-.page__footer--byline {
-  margin: 0;
-  font-size: 0.75em;
-  color: #999999;
+.page__footer {
+  margin: 5rem auto 1rem auto;
+  font-size: 1rem;
+  text-align: left;
 }
-.page__footer--byline > a {
-  color: #999999;
+
+.footer__author {
+  height: 112px;
+  height: 7rem;
+  width: 112px;
+  width: 7rem;
+  top: 1.1rem;
+  margin-right: 16px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  float: left;
+  background: url(../img/anselmhannemann-1.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+.footer__author > img {
+  display: none;
 }
 
 @media print {

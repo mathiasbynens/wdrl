@@ -1,4 +1,6 @@
 .page__header {
+	max-width: 100%;
+	padding: 0;
 
 	> h1,
 	> p {
@@ -12,10 +14,37 @@
 
 }
 
+	.page__nav {
+		background: $colorDark;
+		color: $colorBright;
+
+		> ul {
+			margin: 0;
+			padding: 0;
+
+			> li {
+				display: inline;
+
+				> a {
+					display: inline-block;
+					padding: 0.25rem 0.5rem;
+
+					color: $colorBright;
+					text-decoration: none;
+
+					&.active {
+						border-bottom: 0.25rem solid $keyColor;
+					}
+				}
+			}
+		}
+	}
+
 	.page__header__logo {
 		display: inline-block;
 		width: 5rem;
 		height: 5rem;
+		margin-top: 2rem;
 
 		border-radius: 50%;
 		text-align: center;

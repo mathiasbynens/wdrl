@@ -647,7 +647,7 @@ a {
 .page__footer {
   max-width: 37.5em;
   margin: 0 auto;
-  padding: 1em 1em 1em 1em;
+  padding: 0 1em 0 1em;
 }
 
 .page__header,
@@ -715,15 +715,41 @@ textarea {
   padding: 0.2em 0;
 }
 
+.page__header {
+  max-width: 100%;
+  padding: 0;
+}
 .page__header > p {
   margin: 0;
   font-style: italic;
+}
+
+.page__nav {
+  background: #2e2e2e;
+  color: white;
+}
+.page__nav > ul {
+  margin: 0;
+  padding: 0;
+}
+.page__nav > ul > li {
+  display: inline;
+}
+.page__nav > ul > li > a {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+.page__nav > ul > li > a.active {
+  border-bottom: 0.25rem solid #019875;
 }
 
 .page__header__logo {
   display: inline-block;
   width: 5rem;
   height: 5rem;
+  margin-top: 2rem;
   border-radius: 50%;
   text-align: center;
   background: #2e2e2e;
@@ -766,6 +792,16 @@ textarea {
   border: 0;
   border-radius: 4px;
   text-shadow: none;
+}
+
+/* Archive List */
+.archive__list {
+  padding: 0;
+  text-align: center;
+  list-style-position: inside;
+}
+.archive__list a {
+  color: #019875;
 }
 
 .page__footer {

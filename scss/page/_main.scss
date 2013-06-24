@@ -38,3 +38,15 @@
 		border-radius: 4px;
 		text-shadow: none;
 	}
+
+/* Archive List */
+
+	.archive__list {
+		padding: 0;
+		text-align: center;
+		list-style-position: inside;
+
+		a {
+			color: $keyColor;
+		}
+	}

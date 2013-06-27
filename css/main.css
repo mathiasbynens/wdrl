@@ -804,6 +804,11 @@ textarea {
   color: #019875;
 }
 
+.archive__issue p,
+.archive__issue li {
+  text-align: left;
+}
+
 .page__footer {
   margin: 5rem auto 1rem auto;
   font-size: 1rem;

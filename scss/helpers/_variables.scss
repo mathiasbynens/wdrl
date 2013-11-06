@@ -2,11 +2,12 @@
 
 $background: #fff;
 $color: #2e2e2e;
+$colorKey: #019875;
 
 $linkColor: $color;
 $colorDark: $color;
 $colorBright: $background;
-$buttonPositive: #019875;
+$buttonPositive: $colorKey;
 $keyColor: $buttonPositive;
 
 $grey-mid: #999;

@@ -41,7 +41,7 @@ module.exports = function (grunt) {
 			dev: {
 				options: {
 					unixNewlines: true,
-					style: 'expanded'
+					style: 'compressed'
 				},
 				files: {
 					'css/main.css': 'scss/main.scss'

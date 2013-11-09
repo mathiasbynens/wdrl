@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description></description>
+		<link>http://localhost:4001</link>
+		<atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>16</title>
+				<description>&lt;p&gt;Holà!&lt;br&gt;&lt;br&gt;I am back with another weekly reading list after an exhausting week filled with workshops and conferences. Thanks for keeping up the support to this list, you are awesome! :)&lt;/p&gt;
+
+&lt;p&gt;This week kicks in with a heavy set of new articles, techniques and other interesting stuff. Take some time and read&amp;hellip;&lt;/p&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Samsung offers &lt;a href=&quot;http://developer.samsung.com/remotetestlab/rtlDeviceList.action&quot;&gt;remote real device testing on their devices&lt;/a&gt;. This is an untested but cool sounding project. Check it out and let me know if this works accurately.&lt;/li&gt;
+    &lt;li&gt;WHATWG is trying to build a set of specifications (aka &lt;a href=&quot;https://github.com/whatwg/streams/tree/master#requirements&quot;&gt;an API) for streams&lt;/a&gt; on the web.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.mobilexweb.com/blog/android-4-4-kitkat-browser-chrome-webview&quot;&gt;Android 4.4 KitKat Chrome WebView insights&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;TypeKit now provides &lt;a href=&quot;http://blog.typekit.com/2013/11/05/smaller-kit-sizes-for-french-german-web-pages/&quot;&gt;smaller packages for German and French websites&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;The new &lt;a href=&quot;https://developers.google.com/chrome-developer-tools/docs/remote-debugging&quot;&gt;Android remote debugging documentation&lt;/a&gt; from Google is out.&lt;/li&gt;
+    &lt;li&gt;Search for Creative Commons images based on your color choice with &lt;a href=&quot;http://labs.tineye.com/multicolr&quot;&gt;MultiColr&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/tools-and-tips/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles/&quot;&gt;Set up your dev-machine with dotfiles&lt;/a&gt;. Massive tutorial on nettuts.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://sizecalc.com/&quot;&gt;The Size calculator&lt;/a&gt; calculates the received size of e.g. fonts on a website for you. Kinda cool.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://zurb.com/playground/pizza-pie-charts&quot;&gt;Create Pizza pie charts&lt;/a&gt; with HTML, CSS and a bit of JS.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Woohoo! &lt;a href=&quot;https://github.com/shakyShane/browser-sync&quot;&gt;Browser Sync is here&lt;/a&gt;.&lt;/strong&gt; It's an JavaScript library to sync website testing across browsers (includes scrolling, form filling, links, CSS injection, live reload, and a built-in server). Also &lt;a href=&quot;https://github.com/shakyShane/grunt-browser-sync&quot;&gt;grunt-task is available&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://realfavicongenerator.net/&quot;&gt;Real Favicon Generator&lt;/a&gt; Beta.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML, CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.jonathanklein.net/2013/01/how-much-css-should-you-have.html&quot;&gt;How much CSS should you have?&lt;/a&gt; Question common CSS habits and improve.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://demosthenes.info/blog/775/Which-CSS-Measurements-To-Use-When&quot;&gt;Which CSS unit to use when and where?&lt;/a&gt;&amp;nbsp;With so many out there it's hard to decide. Dudley Storey gives you advice.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.lukew.com/ff/entry.asp?1816&quot;&gt;Don't rely your responsive design too much on screen sizes&lt;/a&gt;. Luke&amp;nbsp;Wroblewski explains why it's better to make breakpoints on elements just when they don't work anymore. I support that opinion.&lt;/li&gt;
+    &lt;li&gt;Testing old IE with the compat mode of the new IE? Well, see &lt;a href=&quot;https://docs.google.com/spreadsheet/ccc?key=0Ak3Dza_-M2yfdHllXzZiU3YzVWlkTW1uWmE3Q0R5eVE&amp;amp;utm_content=buffer7a18e&amp;amp;utm_source=buffer&amp;amp;utm_medium=twitter&amp;amp;utm_campaign=Buffer#gid=3&quot;&gt;this massive chart on the small and big differences to a real-IE testing setup&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.quirksmode.org/blog/archives/2013/11/of_viewports_an.html&quot;&gt;Of viewports, touch events and how to determine a device&lt;/a&gt;: As PPK concludes — Conclusion: none;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Chris explains how to &lt;a href=&quot;http://christianheilmann.com/2013/10/31/perpetuating-terrible-javascript-practices/&quot;&gt;Perpetuate terrible practices in JavaScript&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Care about what happens to your users when they go offline with &lt;a href=&quot;http://github.hubspot.com/offline/&quot;&gt;Offline.js&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://bgrins.github.io/devtools-snippets/#log-globals&quot;&gt;Log global variables in DevTools&lt;/a&gt; (snippet for Chrome DevTools).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;+ beyond&amp;hellip;&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;A &lt;a href=&quot;http://offlinefirst.org/&quot;&gt;starting platform discussing the &quot;Offline first&quot; approach&lt;/a&gt; by tracking real life experiences with e.g. a phone in Africa. By the hood.ie guys.&lt;/li&gt;
+    &lt;li&gt;Bored? Get your ass up and write some lines of &lt;a href=&quot;http://zachbruggeman.me/dogescript/&quot;&gt;Dogescript&lt;/a&gt;. This is so great, so cool, so fancy and so much better than CoffeeScript. ;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After this list you now may need a &lt;a href=&quot;https://github.com/sinker/tacofancy&quot;&gt;delish taco. Here are ~50 crowd-funded recipes&lt;/a&gt;. Now, have an amazing rest of the week and enjoy it!&lt;/p&gt;
+
+&lt;p&gt;Salud!&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Wed, 06 Nov 2013 00:00:00 +0100</pubDate>
+				<link>http://localhost:4001/archive/16</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/16</guid>
+			</item>
+		
+			<item>
+				<title>15</title>
+				<description>&lt;p&gt;Heyho!&lt;br&gt;&lt;br&gt;it's time for another reading list this week. Here we go:&lt;/p&gt;
+
+&lt;h3&gt;Think outside&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;One task to make the web a better place and re-focus on what we as webdevelopers should do: &lt;a href=&quot;http://decentralize.it/&quot;&gt;decentralize.it&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Make one thing and make it good — so &lt;a href=&quot;http://the-pastry-box-project.net/geri-coady/2013-october-25/&quot;&gt;don't try to offer more than your core product&lt;/a&gt;. Geri Coady shares her thoughts on The Pastry Box Project.&lt;/li&gt;
+    &lt;li&gt;&quot;Your work is not good enough&quot; — ever heard yourself saying this? &lt;a href=&quot;http://hugogiraudel.com/2013/10/28/your-work-is-not-good-enough/&quot;&gt;Read this article by Christoph Rumpel&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://kzhu.net/does-life-end-at-35.html&quot;&gt;Does life end at 35&lt;/a&gt;? A very good read on our nowadays common sense to be successful as early as possible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://blogs.cisco.com/collaboration/open-source-h-264-removes-barriers-webrtc&quot;&gt;Cisco has open-sourced its h.264 codec&lt;/a&gt; so that no one has to pay MPEG LA for it anymore if you use Cisco's codec implementation. Firefox will soon support h.264 as they cooperate with Cisco here. Still, &lt;a href=&quot;http://xiphmont.livejournal.com/61927.html&quot;&gt;here's a neutral external comment&lt;/a&gt; on the topic showing you advantages and disadvantages of it.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://ios7colors.com/&quot;&gt;iOS7 Colors&lt;/a&gt; collected on one page.&lt;/li&gt;
+    &lt;li&gt;These are &lt;a href=&quot;http://robcee.net/2013/firefox-27-devtools-fixes/&quot;&gt;all the DevTool bugs that have been resolved in Firefox 27&lt;/a&gt;. I am not sure but this looks like *every* bug has been resolved. Yay!&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://msopentech.com/blog/2013/10/22/microsoft-demonstrates-pointer-events-interoperability-internet-explorer-11-firefox/&quot;&gt;Microsoft implements Pointer Events&lt;/a&gt; into Mozilla Firefox and Blink based browsers. Open Source rocks they say and are right! (Coincidence that IE is closed source but well, you can't do everything right at once…).&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://shop.smashingmagazine.com/smashing-book-4-new-perspectives-on-web-design.html&quot;&gt;Smashing Book #4&lt;/a&gt; will be out soon. I've had the chance to already have a look into it and can only recommend to buy it. It contains some great chapters by good people and I am sure you can learn a lot of things from it.&lt;/li&gt;
+    &lt;li&gt;Searching a new email provider which fights for your privacy? &lt;a href=&quot;http://darkmail.info/&quot;&gt;DarkMail&lt;/a&gt; might be yours.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tooling&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Slides by Addy Osmani:&amp;nbsp;&lt;a href=&quot;https://speakerdeck.com/addyosmani/automating-front-end-workflow&quot;&gt;Automating your Frontend workflow&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;To test your website performance one simple solution is to use webpagetest. You can also target it with the &lt;a href=&quot;https://github.com/marcelduran/webpagetest-api&quot;&gt;WebPageTest API&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/SirPepe/Unsync&quot;&gt;Turn your synchronous functions into asynchronous&lt;/a&gt; functions using Web Workers. Use UnSync by Peter Kröner.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://formoid.com/&quot;&gt;Formoid&lt;/a&gt; is a new tool for forms. Simple, easy, cool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML &amp;amp; CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/redux/getting-touchy-an-introduction-to-touch-and-pointer-events-future-of-web-apps-london-24102013&quot;&gt;Gettin' touchy&lt;/a&gt;. Patrick H. Laucke's slides from Future of Web Apps 2013. Interesting to look into.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://medium.com/objects-in-space/9b8a9dd7bfe3&quot;&gt;Introducing Event Focused JS and CSS (EFJAC)&lt;/a&gt;. Long read but worth it. It is about coding guidelines, the sense of it and how to find a suitable and easy solution.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://speakerdeck.com/csswizardry/ten-top-tips-for-tidier-type&quot;&gt;Ten Top Tips for tidier typography on the web&lt;/a&gt;. Slidedeck by Harry Roberts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://wilsonpage.co.uk/batching-image-insertion/&quot;&gt;Instead of base64 encoding your images&lt;/a&gt; for mobile websites you should consider to batch load them through fastDOM. Great read by Wilson Page.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://triflejs.org/&quot;&gt;TrifleJS&lt;/a&gt; is a headless Trident engine )and a port of PhantomJS). Pretty cool, heh?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cheers!&lt;br&gt;&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Thu, 31 Oct 2013 00:00:00 +0100</pubDate>
+				<link>http://localhost:4001/archive/15</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/15</guid>
+			</item>
+		
+			<item>
+				<title>14</title>
+				<description>&lt;p&gt;Hi,&lt;br&gt;&lt;br&gt;if you have 15 minutes spare and can write some CSS, please would you mind coding &lt;a href=&quot;http://i.imgur.com/gnZnY.png&quot;&gt;this button&lt;/a&gt; and send the result to me via email response or &lt;a href=&quot;https://twitter.com/helloanselm&quot;&gt;twitter&lt;/a&gt;? I already got some pretty good and some pretty creative examples. It's fun! Now to the serious part, this week's reading list.&lt;/p&gt;
+
+&lt;p&gt;By the way: If you're at &lt;a href=&quot;https://border-none.net/&quot;&gt;border:none&lt;/a&gt; this week, I'd love to chat with you. :)&lt;/p&gt;
+
+&lt;h3&gt;Apart from #webdev&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Why it matters to &lt;a href=&quot;http://www.smashingmagazine.com/2013/10/18/lessons-learned-leading-new-web-professionals/&quot;&gt;create a great atmosphere for your employees&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://blog.neave.com/post/64669185529/why-i-create-for-the-web&quot;&gt;»Why I create for the Web«&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Mozilla published a study about the best lossy compressed image format. Here's &lt;a href=&quot;https://blog.mozilla.org/research/2013/10/17/studying-lossy-image-compression-efficiency/&quot;&gt;the blog entry&lt;/a&gt;, and &lt;a href=&quot;http://people.mozilla.org/~josh/lossy_compressed_image_study_october_2013/&quot;&gt;here the study&lt;/a&gt;. You can imagine, between WebP and JPEG XR the winner is… the third one of course!&lt;/li&gt;
+    &lt;li&gt;The &lt;a href=&quot;http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-cite-element&quot;&gt;&amp;lt;cite&amp;gt; element can now contain an author's name&lt;/a&gt; and an URL says the W3C specification since a few days. Yay!&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://docs.webplatform.org/wiki/WPD:Doc_Sprint&quot;&gt;Doc Sprint in a Box&lt;/a&gt;. Learn how to organize an WebPlatform Doc Sprint and evolve the web.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/feross/webtorrent&quot;&gt;WebTorrent&lt;/a&gt; powered by WebRTC. Get this horse runnin'!&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://bradfrostweb.com/blog/post/gitgithub-resources/&quot;&gt;Git and GitHub link collection&lt;/a&gt; by Brad Frost.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.iandevlin.com/blog/2013/10/responsive-web-design/resimagecrop-a-responsive-image-solution&quot;&gt;Resimgcrop by Ian Devlin&lt;/a&gt; is a server side component to generate responsive image assets. Fully compatible with a JS respimg polyfill.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://madebymany.github.io/sir-trevor-js/&quot;&gt;SirTrevor&lt;/a&gt; is a JavaScript driven content editor with a cool concept.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://benhowdle.im/touche/&quot;&gt;touche.js&lt;/a&gt; re-maps click events effordlessly to touch events on touchscreens and removes 300ms delay.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://simplefocus.com/flowtype/&quot;&gt;FlowType&lt;/a&gt; adjusts the font-size to a box' size. JS implementation of the `font-size: line-fit;` idea.&lt;/li&gt;
+    &lt;li&gt;An even better requestAnimationFrame: &lt;a href=&quot;https://github.com/kof/animationFrame&quot;&gt;animationFrame JS library&lt;/a&gt;. It has no performance degradation if multiple rAF calls are used in parallel.&lt;/li&gt;
+    &lt;li&gt;Wilson Page explains &lt;a href=&quot;http://wilsonpage.co.uk/preventing-layout-thrashing/&quot;&gt;what Layout Thrashing in JavaScript means&lt;/a&gt;, how you can prevent it&amp;nbsp;and introduces his &lt;a href=&quot;https://github.com/wilsonpage/fastdom&quot;&gt;rAF library fastDOM&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;A gov.co.uk test on the number of &lt;a href=&quot;http://digital.cabinetoffice.gov.uk/2013/10/21/how-many-people-are-missing-out-on-javascript-enhancement/&quot;&gt;users that don't get the JavaScript enhancements of a website&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML / CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;A &lt;a href=&quot;http://www.awwwards.com/responsive-typography-a-roundup-of-the-best-articles-and-tutorials.html&quot;&gt;roundup of the best responsive typography articles&lt;/a&gt; at Awwwards.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://lea.verou.me/2013/10/slanted-tabs-with-css-3d-transforms/&quot;&gt;Slanted tabs with CSS 3D transforms&lt;/a&gt;. Nothing completely new but maybe still widely unknown. By Lea Verou.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Oh yeah. Peter Paul Koch still couldn't figure completely out how the meta viewport description should behave properly. But he got some interesting insights and wrote an &lt;a href=&quot;http://www.quirksmode.org/mobile/metaviewport/&quot;&gt;roundup on the meta viewport&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Interesting although also opinionated read about &lt;a href=&quot;http://www.kapowaz.net/articles/cargo-cult-css&quot;&gt;Cargo Cult CSS&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;A cool website dedicated to &lt;a href=&quot;http://cssspecificity.com/&quot;&gt;the specificity of CSS&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://demosthenes.info/blog/739/Creating-Responsive-Hero-Text-With-vw-Units&quot;&gt;Create a responsive hero text&lt;/a&gt; with CSS and viewport units.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Chaps, that's it for this week already. Keep on rockin' and enjoy the rest of the week. Make something great!&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;br&gt;&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Wed, 23 Oct 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/14</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/14</guid>
+			</item>
+		
+			<item>
+				<title>13</title>
+				<description>&lt;p&gt;Dear readers,&lt;br&gt;&lt;br&gt;
+I welcome you to the thirteenth issue of this weekly(ish) link collection. Thank you for all your support so far, it has been amazing and keeps me smiling every time I get feedback from you or just see the subscriber list growing!&lt;/p&gt;
+
+&lt;p&gt;Still, sometimes I wonder how you read this list and what to improve to pleasure you, so I'd be very grateful if you could &lt;a href=&quot;https://docs.google.com/forms/d/1YhjGC_vngVFa72KsnKmhOIbdrmhd2VDZ_0omf3CrkYQ/viewform&quot; style=&quot;line-height: 1.6em;&quot;&gt;fill out this short survey&lt;/a&gt;. And here is the new summary:&lt;/p&gt;
+
+&lt;h3&gt;Outside the Box&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;From time to time I will hand you some links here which are not necessarily related to WebDev industry but might inspire you.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;I didn't know much about Macklemore &amp;amp; Ryan Lewis but their songs. After reading the &lt;a href=&quot;http://macklemore.com/post/63746955005/the-heist-1-year-anniversary-a-look-back-on-the-year&quot;&gt;retrospect of Macklemore about the last year&lt;/a&gt; I think this is worth a read for all of you: It is about avoiding major labels, being a celebrity and keeping the message instead of turning into a one-hit-wonder.&lt;/li&gt;
+    &lt;li&gt;A Simple guide to &lt;a href=&quot;https://medium.com/the-year-of-the-looking-glass/23ad80bdfbc&quot;&gt;saying No&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://christianheilmann.com/2013/10/17/the-shiny-silver-elephant-in-the-room/&quot;&gt;The Shiny silver Elephant in the Room&lt;/a&gt;. A must read.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://mcc.id.au/blog/2013/10/all-unset&quot;&gt;Firefox has landed `all: unset` support&lt;/a&gt; in its Nightly build. This means we can soon unset browser's default styling for CSS selectors which is cool.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/JamieMason/grunt-imageoptim/blob/master/CHANGELOG.md&quot;&gt;grunt-imageoptim&lt;/a&gt; now supports full grunt file pattern matching which has the neat side-effect that you now can send files and directories over to imageoptim-cli.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://blog.ghost.org/public-launch/&quot;&gt;Ghost&lt;/a&gt; blogging platform is now available for public.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.w3.org/blog/news/archives/3309&quot;&gt;Touch Events are now W3C Recommendation&lt;/a&gt;. But as we know now, Recommendation is &lt;a href=&quot;https://twitter.com/rodneyrehm/status/388954968893693952&quot;&gt;only one step away from deprecation&lt;/a&gt;. [Sorry, had to add this here]&lt;/li&gt;
+    &lt;li&gt;In latest Chrome Canary the DevTools settings (&quot;Show Console&quot;, &quot;Settings&quot;, &quot;Dock to right|bottom&quot;) are in the upper right. Much cleaner and better to find.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;The &lt;a href=&quot;http://andreasweis.com/webfontblender/&quot;&gt;WebFontBlender&lt;/a&gt; let's you preview Webfonts immediately with your custom text. Cool tool!&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://responsive.io/&quot;&gt;Responsive.io&lt;/a&gt; is another Responsive Images solution besides &lt;a href=&quot;http://www.resrc.it/&quot;&gt;resrc.it&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;If a client again asks for paging in a website, show him this link: &lt;a href=&quot;http://www.thereisnopagefold.com/&quot;&gt;thereisnopagefold.com&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://iconizr.com/&quot;&gt;This is Iconizr&lt;/a&gt;. You drop your SVG drawing and it starts processing it into a CSS icon kit and hands it back to you as Sass and CSS code including SVG, PNG, a CSS sprite, dataURI. Cool thing, isn't it?&lt;/li&gt;
+    &lt;li&gt;How to &lt;a href=&quot;http://davidwalsh.name/firefox-app&quot;&gt;create a Firefox OS App&lt;/a&gt; from your existing web code? It's easy and done in 5 minutes.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.streamroot.io/&quot;&gt;StreamRoot.io&lt;/a&gt; lets you create video players with peer-to-peer driven loading of the resource files via WebRTC.&lt;/li&gt;
+    &lt;li&gt;Using grunt server you can &lt;a href=&quot;http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices&quot;&gt;live update your devices&lt;/a&gt; during development.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML &amp;amp; CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://webdesign.tutsplus.com/articles/general/manipulating-svg-icons-with-simple-css/&quot;&gt;Manipulate your SVG with CSS&lt;/a&gt;. It's just, this relies on JavaScript but still is a great technique to modify icons or other things on the easily and on the fly :-)&lt;/li&gt;
+    &lt;li&gt;Create &lt;a href=&quot;http://demosthenes.info/blog/760/Create-A-Responsive-Imagemap-With-SVG&quot;&gt;responsive imagemaps with SVG&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;You can &lt;a href=&quot;http://tympanus.net/Development/AnimatedCheckboxes/&quot;&gt;animate checking of checkboxes with SVG&lt;/a&gt; shows an Tympanus experiment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/airbnb/javascript&quot;&gt;AirBNB's JavaScript style guide&lt;/a&gt;. There's just so much in it and I do think it's cool!&lt;/li&gt;
+    &lt;li&gt;A &lt;a href=&quot;https://gist.github.com/erikroyall/6618740&quot;&gt;cross-browser event handling system&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Yahoo engineers share their thoughts on &lt;a href=&quot;http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead&quot;&gt;JavaScript modules, AMD, and the Road ahead&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Performance&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.moboom.com/blog-post/9-reasons-why-mobile-testing-should-happen-on-real-devices/68be04f7-2fe1-9afd-0be4-525876b81665&quot;&gt;9 Reasons why Mobile Testing should happen on real Devices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remember to &lt;a href=&quot;https://docs.google.com/forms/d/1YhjGC_vngVFa72KsnKmhOIbdrmhd2VDZ_0omf3CrkYQ/viewform&quot;&gt;fill out this short survey&lt;/a&gt;. Thank you! I also set up GitTip on the WDRL website if you want to support me.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;br&gt;&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Thu, 17 Oct 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/13</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/13</guid>
+			</item>
+		
+			<item>
+				<title>12</title>
+				<description>&lt;h2&gt;Issue 12&lt;/h2&gt;
+
+&lt;p&gt;&lt;article class=&quot;archive__issue&quot;&gt;
+&lt;p&gt;Hoi!&lt;br&gt;&lt;br&gt;
+After a week of silence due to the lack of content I am back now with a great list of frontend weblinks. Angry? You might profit from a &lt;a href=&quot;https://api.github.com/zen&quot;&gt;Zen!&lt;/a&gt; (Refresh!)&lt;/p&gt;&lt;/p&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Mozilla is rocking the house. They've built an experimental implementation into &lt;a href=&quot;http://gemal.dk/blog/2013/10/02/html5_flash_player_shumway_landed/index.html&quot;&gt;Firefox Nightly to play Flash (swf) through HTML5 without Flash Player&lt;/a&gt;. It's called &lt;b&gt;Shumway&lt;/b&gt; and looks pretty cool. Although I have not tested this very much it is a cool thing, although it also seems to consume some CPU power ;)&lt;/li&gt;
+    &lt;li&gt;Chromium (means Chrome and Opera) will soon &lt;a href=&quot;https://codereview.chromium.org/25761005&quot;&gt;support the CSS property&lt;b&gt; `object-fit` and `object-position`&lt;/b&gt;&lt;/a&gt; which is a pretty cool thing for responsive layouts because it's like `background-size: cover|contain` in CSS backgrounds but for foreground elements. Also, Chrome (Chromium does already) will very soon support &lt;a href=&quot;https://plus.google.com/100132233764003563318/posts/7BVvLAjiA2o&quot;&gt;CSS Pretty Printing in DevTools&lt;/a&gt; which allows you to read code in minified files.&lt;/li&gt;
+    &lt;li&gt;A new book on JavaScript is out. It's called '&lt;a href=&quot;http://humanjavascript.com/&quot;&gt;Human JavaScript&lt;/a&gt;' and that is what it is.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Design&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://bradfrostweb.com/blog/post/development-is-design/&quot;&gt;Development is Design&lt;/a&gt; says Brad Frost and explains why it is so important to let Designers and Developers work together.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://everydaydesigner.net/design/get-started-with-scalable-vector-graphics&quot;&gt;Get started with Scalable Vector Graphics&lt;/a&gt;. Wether you are designer or developer, read this article and both will learn something.&lt;/li&gt;
+    &lt;li&gt;You need a cool calendar design for your website? &lt;a href=&quot;http://codepen.io/collection/wvhHK/&quot;&gt;Here are a bunch of, listed on Codepen&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;User Experiences that &lt;a href=&quot;http://baymard.com/blog/mobile-checkout&quot;&gt;you should avoid&lt;/a&gt; on your mobile layout.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;RWD &amp; Web Performance&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Still searching for good &lt;a href=&quot;http://addyosmani.com/blog/image-optimization-tools/&quot;&gt;tools to optimize your images&lt;/a&gt;? Addy Osmani wrote a big list with good advices for all listed tools.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.lukew.com/ff/entry.asp?1797&quot;&gt;Avoid spinners&lt;/a&gt; and optimize the &lt;a href=&quot;http://www.mobify.com/blog/beginners-guide-to-perceived-performance/&quot;&gt;perceived performance&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://miketaylr.com/posts/2013/09/conception-begins-at-320.html&quot;&gt;Believe it or not: Rotating didn't fix it&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://sourcejs.com/&quot;&gt;SourceJS&lt;/a&gt; is a frontend source code documentation engine.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://spy-js.com/&quot;&gt;Spy-JS&lt;/a&gt; makes tracing simple.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://wilsonpage.co.uk/preventing-layout-thrashing/&quot;&gt;Layout Thrashing&lt;/a&gt; is bad and we can fix that tells Wilson Page.&lt;/li&gt;
+    &lt;li&gt;Yay for cool but unknown &lt;a href=&quot;http://coding.smashingmagazine.com/2013/10/06/inside-the-box-with-vanilla-javascript/&quot;&gt;vanilla JavaScript functions&lt;/a&gt;. Here are a few.&lt;/li&gt;
+    &lt;li&gt;An &lt;a href=&quot;http://blog.rodneyrehm.de/archives/27-Dialog-for-Unsupported-Browsers.html&quot;&gt;unobstrusive way to notice users of old browsers&lt;/a&gt; if you have a web app not supporting them.&lt;/li&gt;
+    &lt;li&gt;If you listen to touchend events, &lt;a href=&quot;https://plus.google.com/115788095648461403871/posts/Ny6ZXuzWdN5&quot;&gt;also listen to touchcancel&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://dploy.io/&quot;&gt;Dploy&lt;/a&gt;.io – a tool to automate your deployment. Cool thing, easy, looks fresh and the best: It's free for Open Source projects. Beanstalk, you rock!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Other things&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;If you feel like you have the slightest doubt in you that you're not doing what you want to do, then I urge you to do one thing: &lt;a href=&quot;http://www.rachilli.me/make-a-change/&quot;&gt;make a change&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;The &lt;a href=&quot;http://the-pastry-box-project.net/karen-mcgrane/2013-october-9/&quot;&gt;Minimum Viable Lifestyle&lt;/a&gt;&amp;nbsp;says: Don't work over 12hrs, make a 12hrs rest between your working days, don't over-eat.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Have a great week (and if you are at Fronteers Conference, please enjoy it &amp;mdash; I'm a bit sad that I can't attend this year)!&lt;br&gt;&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Thu, 10 Oct 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/12</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/12</guid>
+			</item>
+		
+			<item>
+				<title>11</title>
+				<description>&lt;p&gt;Hey guys,&lt;br&gt;&lt;br&gt;
+just in time for the weekend I have a new list for you. Now relax, grab a cup of coffee or tea and get yourself in a comfy position to read for the next hour. By the way: Would you mind to tell me how and when you are reading my list? Just reply here.&lt;/p&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Do you also have trouble finding this one documentation about a library? It's probably on &lt;a href=&quot;http://devdocs.io/&quot;&gt;DevDocs&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://alistapart.com/article/the-web-runs-on-electricity-and-were-running-out&quot;&gt;The Web Runs on Electricity and We’re Running Out&lt;/a&gt;. On problems with battery power, sustainability and how we can help to make our world a bit better.&lt;/li&gt;
+    &lt;li&gt;And those are the &lt;a href=&quot;https://hacks.mozilla.org/2013/09/new-features-in-the-firefox-developer-tools-episode-26/&quot;&gt;Firefox DevTools updates&lt;/a&gt; in Firefox Aurora 26: Pseudo-Elements inspection, Enhancements on the JS debugger, web console and on the responsive design view.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.feedthebot.com/tools/&quot;&gt;FeedTheBot&lt;/a&gt; is an overview for useful tools for website enhancements.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.typ.io/latest&quot;&gt;Type.io&lt;/a&gt; is a web catalogue with good examples for type pairs.&lt;/li&gt;
+    &lt;li&gt;Want those cool web icons in Photoshop? &lt;a href=&quot;http://blendme.in/&quot;&gt;Blendme.in&lt;/a&gt; is a Photoshop extension that just let you do that.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;RWD &amp; Web Performance&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Still searching for good &lt;a href=&quot;http://addyosmani.com/blog/image-optimization-tools/&quot;&gt;tools to optimize your images&lt;/a&gt;? Addy Osmani wrote a big list with good advices for all listed tools.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.lukew.com/ff/entry.asp?1797&quot;&gt;Avoid spinners&lt;/a&gt; and optimize the &lt;a href=&quot;http://www.mobify.com/blog/beginners-guide-to-perceived-performance/&quot;&gt;perceived performance&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://miketaylr.com/posts/2013/09/conception-begins-at-320.html&quot;&gt;Believe it or not: Rotating didn't fix it&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML, CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://philipwalton.github.io/solved-by-flexbox/&quot;&gt;Solved by Flexbox&lt;/a&gt; gives you an overview what problems you can solve with CSS.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://hackerjournalist.net/2013/09/25/if-it-doesnt-work-on-mobile-it-doesnt-work/&quot;&gt;If it doesn't work on mobile, it does not work&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Learn about the new&amp;nbsp;&lt;a href=&quot;https://hacks.mozilla.org/2013/09/reintroducing-the-firefox-developer-tools-part-1-the-web-console-and-the-javascript-debugger/&quot;&gt;Firefox Web Console and JavaScript Debugger&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To finish this letter I want to leave you with &lt;a href=&quot;http://frankchimero.com/blog/2013/09/the-inferno-of-independence/&quot;&gt;The Inferno of Independence&lt;/a&gt;. It is a good, truthful read about sustainability, loneliness and money in our industry.&lt;br&gt;&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Fri, 27 Sep 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/11</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/11</guid>
+			</item>
+		
+			<item>
+				<title>10</title>
+				<description>&lt;p&gt;Servus mitanand [Hi guys],&lt;br&gt;&lt;br&gt;
+damn it, this message should have gone live since five days now as we're already counting the 10th official issue of Web Development Reading List. With over already over 400 subscribers I am so happy how this project evolved. But while in my home city Munich the Oktoberfest began, I am chilling in Italy enjoying the last bits of summer sun. Happy reading!&lt;/p&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Mozilla Labs published a project called &lt;a href=&quot;https://togetherjs.com/&quot;&gt;together.js&lt;/a&gt; which is a library adding collaboration features to your website.&lt;/li&gt;
+    &lt;li&gt;Damn you, &lt;a href=&quot;http://my.opera.com/ODIN/blog/2013/09/19/its-not-the-power-of-the-phone-its-the-network-that-counts&quot;&gt;it's not power of the phone, it's the network that counts&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.ffmark.com/&quot;&gt;FF Mark font&lt;/a&gt; – check out this page to see how a great font website is made.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.html5bookmarks.com/&quot;&gt;HTML5 Bookmarks&lt;/a&gt;. Just bookmark it!&lt;/li&gt;
+    &lt;li&gt;The new blogging platform &lt;a href=&quot;http://blog.ghost.org/launch&quot;&gt;Ghost is out&lt;/a&gt;. It's independent, self-hosted by you.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://flippinawesome.org/2013/09/23/automating-complex-workflows-with-grunt-custom-tasks/&quot;&gt;Automating complex workflows with Grunt custom tasks&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;On OS X, &lt;a href=&quot;http://superuser.com/questions/134679/command-line-application-for-converting-svg-to-png-on-mac-os-x/142082#142082&quot;&gt;this&lt;/a&gt; can help you to easily procude an SVG out of a PNG file.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://avatars.io/&quot;&gt;Avatars&lt;/a&gt; is a new tool to collect your avatars on one place ready to use on different platforms.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/Ferrari/grunt-autoshot&quot;&gt;grunt-autoshot&lt;/a&gt; makes a screenshot of your website with phantomJS browser.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML, CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/speed/img-compression/&quot;&gt;Image Compression for websites&lt;/a&gt;: Best practices, opinions, problems and solutions all to be found in this html5rocks article.&lt;/li&gt;
+    &lt;li&gt;How to &lt;a href=&quot;http://www.inserthtml.com/2013/09/quick-tips-background-videos/&quot;&gt;use a video as background&lt;/a&gt; scaling properly.&lt;/li&gt;
+    &lt;li&gt;Lovely &lt;a href=&quot;https://github.com/hakimel/css&quot;&gt;CSS experiments&lt;/a&gt; in a github repo by the chap hakimel.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://n12v.com/focus-transition/&quot;&gt;Transitions on form elements' focus&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://updates.html5rocks.com/2013/09/dialog-element-Modals-made-easy&quot;&gt;&amp;lt;dialog&amp;gt;&lt;/a&gt; has landed in Chrome Canary. It makes handling modals easy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://css-tricks.com/controlling-css-animations-transitions-javascript/&quot;&gt;Control CSS Animations&lt;/a&gt; with JavaScript.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/drublic/slider&quot;&gt;jQuery Slider&lt;/a&gt; by @drublic. It's new, it's shiny and, most important, written for full performance etc. where other JS-sliders suck.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.creativebloq.com/html5/build-custom-html5-video-player-9134473&quot;&gt;How to build an HTML5 video player&lt;/a&gt; with JS properly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sending you some spirit of Italy!&lt;br&gt;
+    -Anselm (&lt;a href=&quot;http://instagram.com/helloanselm&quot; target=&quot;_blank&quot;&gt;follow me on Instagram&lt;/a&gt;)&lt;/p&gt;
+</description>
+				<pubDate>Mon, 23 Sep 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/10</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/10</guid>
+			</item>
+		
+			<item>
+				<title>9</title>
+				<description>&lt;p&gt;Hey,&lt;br&gt;&lt;br&gt;
+Good to be back after two weeks of vacation. The last message was quite a list and I hope you had the time to read through? Well, after such a long time you can imagine I won't have read everything happened during the time of my absence. But still, I've got a big and interesting list for you with new tools and new techniques. Let's start with it:&lt;/p&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Wheee! There is a &lt;a href=&quot;https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/ResourcePriorities/Overview.html&quot;&gt;Editor's Draft for Resource Priorities&lt;/a&gt; in the W3C docs. Why so excited? It means we're getting a `lazyload` or `postpone` attribute for images and other resources! Isn't that great? I have the biggest hope this will be a CR soon.&lt;/li&gt;
+    &lt;li&gt;Firefox now &lt;a href=&quot;http://firefoxnightly.tumblr.com/post/60358043608/firefox-inspector-now-supports-pseudo-elements&quot;&gt;supports inspection of pseudo-elements&lt;/a&gt; (:before/:after) in Nightly build. Big thumbs up for this long-overdue feature. Now we can talk about Firefox being an alternative to the other inspectors.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://iswebrtcreadyyet.com/&quot;&gt;Is WebRTC ready yet?&lt;/a&gt; Dudes, this is long overdue already. Can we finally solve this soon?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;RWD&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://alistapart.com/column/do-as-little-as-possible&quot;&gt;Do as little as possible&lt;/a&gt;. Follow the 'less is more future-proof' concept for Responsive Webdesign.&lt;/li&gt;
+    &lt;li&gt;You know that, embedding external media content can be very annoying because it's not responsive. &lt;a href=&quot;http://embedresponsively.com/&quot;&gt;Embedresponsively&lt;/a&gt; fixes that for you!&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://emailwizardry.nightjar.com.au/2013/08/28/media-queries-in-html-email-cover-all-your-bases/&quot;&gt;Media Queries in emails&lt;/a&gt;. Cover all your bases.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.mobify.com/blog/css-sprites-vs-data-uris-which-is-faster-on-mobile/&quot;&gt;Data URIs vs. Sprites&lt;/a&gt; – what is faster? See these numbers.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://jakearchibald.com/2013/progressive-enhancement-is-faster/&quot;&gt;Progressive Enhancement is faster&lt;/a&gt;. Just imagine Jake Archibald really needed to write that article. In 2013. Nothing more to say except it is again a great article.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://salvattore.com/&quot;&gt;Salvattore&lt;/a&gt; – a new masonry-like technique that doesn't rely on jQuery. I have not tried it yet but it really looks promising and fast.&lt;/li&gt;
+    &lt;li&gt;Favicons. A long story they have. Audrey Roy created a &lt;a href=&quot;https://github.com/audreyr/favicon-cheat-sheet&quot;&gt;cheat sheet&lt;/a&gt; with several useful links to sum up sizings and types.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://mir.aculo.us/2013/08/30/handling-numerical-input-in-mobile-web-apps-or-a-sad-tale-of-two-keyboards/&quot;&gt;Numerical input fields on mobile&lt;/a&gt; can cause serious problems you might not have thought about.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://demosthenes.info/blog/739/Creating-Responsive-Hero-Text-With-vw-Units&quot;&gt;Creating responsive text&lt;/a&gt; with the `vw` unit.&lt;/li&gt;&lt;li&gt;Why &lt;a href=&quot;http://www.smashingmagazine.com/2013/09/12/why-copy-is-a-design-issue/&quot;&gt;Copy &lt;i&gt;is&lt;/i&gt; a Design issue&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Here are the &lt;a href=&quot;http://www.shanehudson.net/2013/09/10/responsive-images-meeting-notes/&quot;&gt;notes by Shane Hudson of the RICG Responsive Images Meetup&lt;/a&gt; in Paris this week (where I unfortunately could not attend).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://rtyley.github.io/bfg-repo-cleaner/&quot;&gt;BFG Repo cleaner&lt;/a&gt; cleans you git repositories. Might be useful fi you have large ones.&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;Annoyed by uncool text editors on websites? Get &lt;a href=&quot;http://bphogan.com/markdownmark/&quot;&gt;this bookmarklet calles Markdownmark&lt;/a&gt; which transforms your field into a Markdown editor.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://vline.com/&quot;&gt;vLine&lt;/a&gt; is a in-beta webRTC Skype replacement. Looks great.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;If you want something to be asynchronous &lt;a href=&quot;http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony&quot;&gt;be sure it never is synchronous&lt;/a&gt;. A clever idea about designing APIs.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/jpillora/xdomain&quot;&gt;XDomain&lt;/a&gt; is a pure JavaScript CORS alternative.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://labs.bigroomstudios.com/libraries/animo-js&quot;&gt;Animo.JS&lt;/a&gt; is a cool library based on jQuery 2 which triggers your CSS animations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Various&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Kate Kiefer-Lee on &lt;a href=&quot;http://katekieferlee.com/blog/2013/8/28/on-helping&quot;&gt;helping&lt;/a&gt;. We're not doing it alone. We need it all. We rely on it. Help with others.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://alistapart.com/column/good-designers-good-clients&quot;&gt;Good Designers, Good Clients&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://indiedata.org/&quot;&gt;IndieData&lt;/a&gt;. You know what this will be about. It &lt;i&gt;is&lt;/i&gt; important.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://aralbalkan.com/notes/on-evolving-indieauth/&quot;&gt;IndieAuth&lt;/a&gt;. How this can work. I hope we will be able to do that soon.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What a list, huh? But I already said this. After a pause of two weeks it is likely I missed many more interesting things but I'm sure this list will occupies you for a few minutes ;-)&lt;/p&gt;
+
+&lt;p&gt;Hear you next week (although I might be late then as I will be in Bologna at FromTheFront)!&lt;br&gt;
+    *Anselm&lt;/p&gt;
+</description>
+				<pubDate>Thu, 12 Sep 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/9</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/9</guid>
+			</item>
+		
+			<item>
+				<title>8</title>
+				<description>&lt;p&gt;Hey,&lt;br&gt;&lt;br&gt;
+I'm beginning with an announcement: As I will be in vacation for two weeks I won't send you the Reading List in that time. That means (depending on how much time you have) you have more than two weeks to catch up with the recent issues or have to wait a little bit and have to go outside to enjoy a beer/wine (or whatever you prefer) instead of reading my webdev links.&lt;/p&gt;
+
+&lt;p&gt;But let's go to business. I again have a huge list of links for you so you don't get too bored in the next time.&lt;/p&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;object-fit CSS property has &lt;a href=&quot;http://src.chromium.org/viewvc/blink?view=revision&amp;amp;revision=156535&quot;&gt;just landed a patch in Blink&lt;/a&gt;. This is great news and means we're getting started with improving RWD processes. &lt;a href=&quot;http://www.w3.org/TR/2012/CR-css3-images-20120417/#object-fit&quot;&gt;Read the spec&lt;/a&gt; to find out why this is cool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;General&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;A good project is defined by you &lt;a href=&quot;http://alistapart.com/article/getting-to-flow&quot;&gt;Getting to Flow&lt;/a&gt; says Breandán Knowlton in his A List Apart article which is very useful to improve the client-developer relationship and to make a project a great success for all.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.nczonline.net/blog/2013/08/06/understanding-how-you-provide-value/&quot;&gt;Understanding &lt;i&gt;how&lt;/i&gt; you provide value&lt;/a&gt;. A story of a geeky pupil, women, trust and how all this applies also to the job you're doing. Good read by Nicholas C. Zakas.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://medium.com/product-design-1/6c975dede146&quot;&gt;How to work with designers&lt;/a&gt;. A Cheat Sheet for Engineers and PMs. While the headline sounds like it's again those 'designers' who aren't understanding you the content is very useful for all.&lt;/li&gt;
+    &lt;li&gt;Uh, oh! Ian Devlin dares to write about &lt;a href=&quot;http://html5hub.com/how-developers-can-contribute-to-the-html5-specification/#i.jau58lwdtdlu11&quot;&gt;how you can contribute to the HTML5 specification&lt;/a&gt;. What sounds so horrible from what you might have heard actually is a relatively simple thing. Ian writes how to do and you will see you can do it, too. But why should you? Maybe to improve your work-life and of thousand others… and that's only one reason.&lt;/li&gt;
+    &lt;li&gt;A proposal for good &lt;a href=&quot;http://smus.com/installable-webapps/&quot;&gt;installable webapps&lt;/a&gt;. An interesting concept which fixes many problems with webapps we're facing currently.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Now what the hell – &lt;a href=&quot;http://www.smashingmagazine.com/2013/08/16/indesign-scripts-and-plugins-to-speed-up-your-work/&quot;&gt;InDesign scripts&lt;/a&gt; in the WebDev Reading List?! Yes, it's a useful list, give them to the ones who use InDesign in your company. Speeds up lots of things and is super easy to deal with.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://tridiv.com/&quot;&gt;TriDiv&lt;/a&gt; – a new web-based editor for creating 3D shapes in CSS.&lt;/li&gt;&lt;li&gt;Jason Grigsby wrote &lt;a href=&quot;http://blog.cloudfour.com/using-charles-proxy-to-examine-ios-apps/&quot;&gt;how you can use Charles Proxy App&lt;/a&gt; to examine (not only) iOS Apps. It simply logs all your data transfer and you can spy on it.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/facebook/huxley&quot;&gt;Huxley&lt;/a&gt; by Facebook is a UI Testing framework you may consider to automate testing for inconsistent UI renderings.&lt;/li&gt;
+    &lt;li&gt;Learn&lt;a href=&quot;http://chrisawren.com/posts/Advanced-Grunt-tooling&quot;&gt;Advanced Grunt Tooling&lt;/a&gt;. Chris Wren shares neat and useful tips how to improve your grunt workflow drastically.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Rob Dodson is &lt;a href=&quot;http://robdodson.me/blog/2013/08/20/exploring-html-imports/&quot;&gt;exploring HTML Imports&lt;/a&gt; – part of the web components which lets you import HTML snippets in your code without requesting them via AJAX.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Sass / Less / CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Simply have a look at these &lt;a href=&quot;https://github.com/drublic/Sass-Mixins&quot;&gt;Sass&lt;/a&gt; and &lt;a href=&quot;https://github.com/drublic/less-mixins&quot;&gt;Less&lt;/a&gt; Mixins by Hans-Christian Reinl.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Responsive&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;BBC News open sourced a new project calles &lt;a href=&quot;https://github.com/BBC-News/Imager.js&quot;&gt;imager.js&lt;/a&gt; which is a great polyfill for responsive images. Great but requires a server-side script to return the optimized images on the fly. It is also planned to integrate with the &lt;a href=&quot;https://github.com/andismith/grunt-responsive-images&quot;&gt;grunt-responsive-images&lt;/a&gt; task.&lt;/li&gt;
+    &lt;li&gt;Andy Davies shares &lt;a href=&quot;http://andydavies.me/blog/2013/08/19/creating-page-load-waterfalls-for-older-mobile-devices/&quot;&gt;how you can get a waterfall performance chart on older devices&lt;/a&gt;. This is really important if you want to identify the problems of your website on old devices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly&quot;&gt;Seven JavaScript basics many developers aren't using (properly)&lt;/a&gt;. Writing JS? Read that one and question yourself if you're doing this right already. If not, read again and apply.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;(Free) Fonts&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://designify.me/freebies/braxton-free-font-from-fontfabric/&quot;&gt;Braxton is a free font&lt;/a&gt; by Font Fabric and looks very good and fresh. Check it out and if you like it, consider donating a small amount for it :-)&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://justmytype.co/&quot;&gt;Just My Type&lt;/a&gt; gives you some good font pairings of the TypeKit and H&amp;amp;FJ foundries.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now… I'm out and off for vacation but you, have a nice two weeks and during my absence enjoy reading &lt;a href=&quot;http://the-pastry-box-project.net/&quot;&gt;The Pastry Box Project&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cheers,&lt;br&gt;
+    -Anselm&lt;br&gt;
+    &lt;a href=&quot;https://twitter.com/helloanselm&quot;&gt;@helloanselm&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Thu, 22 Aug 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/8</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/8</guid>
+			</item>
+		
+			<item>
+				<title>7</title>
+				<description>&lt;p&gt;Namaste!&lt;br&gt;&lt;br&gt;
+I want to give a warm welcome to all new subscribers. :)&lt;/p&gt;
+
+&lt;p&gt;This week I have some great fresh links for your inspiration and work. Have fun with issue N° 7!&lt;/p&gt;
+
+&lt;h3&gt;Tips of the Day&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.goodfuckingdesignadvice.com/advice/178/&quot;&gt;Change your fucking routine.&lt;/a&gt; You might also want to listen to &lt;a href=&quot;http://unfinished.bz/31&quot;&gt;episode 31 of unfinishedbiz podcast&lt;/a&gt; with Harry Roberts who is talking about exactly this topic.&lt;/li&gt;
+    &lt;li&gt;And have you seen the amazing art by a 98yr old who's drawing with MS Paint? &lt;a href=&quot;https://vimeo.com/70748579&quot;&gt;Here's a teaser-video&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;News / Misc&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Daniel Mall about &lt;a href=&quot;http://danielmall.com/articles/prequalifying-clients/&quot;&gt;prequalifying clients&lt;/a&gt;, what to ask and what signs might indicate problems with clients. A very interesting read to improve the client-me situation.&lt;/li&gt;
+    &lt;li&gt;See what cool webplatform features are currently in development at Chromium and will be supported soon in the &lt;a href=&quot;http://www.chromestatus.com/features&quot;&gt;Chromium Dashboard&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.webkit.org/blog/2910/improved-support-for-high-resolution-displays-with-the-srcset-image-attribute/&quot;&gt;WebKit now supports the W3C/RICG srcset specification&lt;/a&gt;, available in WebKit Nightly.&lt;/li&gt;
+    &lt;li&gt;Shopify now offers a (sadly US-only) direct &lt;a href=&quot;http://www.shopify.com/payments&quot;&gt;Shopify payment&lt;/a&gt; option for its customers. Hope this will be available soon for Europe (+Germany), too.&lt;/li&gt;
+    &lt;li&gt;Opera now offers the &lt;a href=&quot;http://www.opera.com/developer&quot;&gt;Opera Developer&lt;/a&gt; channel which is a very often updated browser-channel similar to Chrome's Canary or Firefox Aurora.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Need to convert excel data into a web friendly format? &lt;a href=&quot;http://shancarter.github.io/mr-data-converter/&quot;&gt;Mr Data to the help&lt;/a&gt; you can do with the online tool and get a JSON or XML output.&lt;/li&gt;
+    &lt;li&gt;Sometimes I wonder if we're &lt;i&gt;overtooling&lt;/i&gt; – just look at this interesting but massive slidedeck about &lt;a href=&quot;https://speakerdeck.com/praveenvijayan/tooling-for-modern-web-app-developer&quot;&gt;Tooling for Web Developers&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://bradfrostweb.com/blog/post/this-is-the-web/&quot;&gt;Brad Frost shares his presentation screens&lt;/a&gt; under Creative Commons license. Maybe you will use it at your next client presentation?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;On CSS-Tricks a little open discussion about h&lt;a href=&quot;http://css-tricks.com/spacing-the-bottom-of-modules/&quot;&gt;ow to deal with vertical bottom space&lt;/a&gt; provides an interesting read for you how to code modules and what is the best approach to do so.&lt;/li&gt;
+    &lt;li&gt;The Sass-way writes about &lt;a href=&quot;http://thesassway.com/advanced/modular-css-an-example&quot;&gt;modular CSS&lt;/a&gt; and why giving up on nested selectors in Sass might sometimes make more sense.&lt;/li&gt;
+    &lt;li&gt;Besides the super-useful &lt;a href=&quot;https://github.com/drublic/Sass-Mixins&quot;&gt;Sass-Mixins&lt;/a&gt; there is now a repository giving you this &lt;a href=&quot;https://github.com/drublic/less-mixins&quot;&gt;mixins for Less&lt;/a&gt;. Great!&lt;/li&gt;
+    &lt;li&gt;Pushy is a small &lt;/span&gt;&lt;a href=&quot;https://github.com/christophery/pushy&quot;&gt;responsive off-canvas navigation menu&lt;/a&gt; using CSS transforms &amp;amp; transitions.&lt;/li&gt;
+    &lt;li&gt;Scott Kellum says that &lt;a href=&quot;http://scottkellum.com/2013/08/13/designers-know-your-medium.html&quot;&gt;Designers should know their Medium&lt;/a&gt;. Otherwise it can't work. True words.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Conferences&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;November, 4-6th – Join the&lt;b&gt; &lt;a href=&quot;http://2013.playandmake.com/&quot;&gt;Play &amp;amp; Make 2013&lt;/a&gt;&lt;/b&gt; in Düsseldorf, Germany by my friend Marc. It sound like this is the real &quot;look beyond the tellerrand&quot; conference with so great and inspirational creative speakers and you don't want to miss out.&lt;/li&gt;
+    &lt;li&gt;September 13th – Go to the &lt;a href=&quot;http://2013.cssconf.eu/&quot;&gt;CSSConf EU 2013&lt;/a&gt; in Berlin, Germany with great speakers and topics.&lt;/li&gt;
+    &lt;li&gt;August 28th – Improve the documentation of web technologies at the &lt;a href=&quot;http://wpds-zurich.eventbrite.com/&quot;&gt;WPDS&lt;/a&gt; in Zurich, Switzerland.&lt;/li&gt;
+    &lt;li&gt;September 19-20th – Meet the Frontend Brothers at &lt;a href=&quot;http://2013.fromthefront.it/&quot;&gt;FromTheFront 2013&lt;/a&gt; in Bologna, Italy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quite a list this week, right? And this while we have only wednesday means I am one day ahead of schedule. But this is how our industry works: One week we have nearly nothing to talk about and the other week it's super hard to catch up with all the news going around.&lt;/p&gt;
+
+&lt;p&gt;Have a nice weekend!&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Wed, 14 Aug 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/7</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/7</guid>
+			</item>
+		
+			<item>
+				<title>6</title>
+				<description>&lt;p&gt;Salut,&lt;br&gt;&lt;br&gt;
+and welcome to the newest issue of my weekly Reading List.&lt;/p&gt;
+
+&lt;p&gt;As always, if you have feedback, write me an email by simply replying here.&lt;/p&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Bower 1.1.0 is out. See &lt;a href=&quot;https://github.com/bower/bower/blob/master/CHANGELOG.md&quot;&gt;changelog&lt;/a&gt; for what has changed.&lt;/li&gt;
+    &lt;li&gt;Firefox will give you control over&amp;nbsp;&lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=857142&quot;&gt;font weight differences on OS X&amp;nbsp;&lt;/a&gt;– a long existing problem you can control now. Coming with the release of Firefox 25 (currently is Nightly).&lt;/li&gt;
+    &lt;li&gt;By the way, &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/23.0/releasenotes/&quot;&gt;Firefox 23 shipped&lt;/a&gt; and brings new features like Options panel for DevTools, mixed content blocking, unprefixed requestAnimationFrame, globalConsole, and finally a network monitor in DevTools.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://mailpile.is/&quot;&gt;Milepile&lt;/a&gt; has been funded and now &lt;a href=&quot;https://github.com/pagekite/mailpile&quot;&gt;development started&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://dalekjs.com/&quot;&gt;Dalek.js has been released&lt;/a&gt; and version 0.0.2 will come out in the next days fixing some bugs with Firefox.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://mikewest.org/2013/08/debugging-runtime-errors-with-window-onerror&quot;&gt;window.onerror has been updated in Blink&lt;/a&gt; means you can now debug your runtime errors better than ever before in Blink-driven Browsers.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://imageoptim.com/&quot;&gt;ImageOptim 1.4.3&lt;/a&gt; is out and has better compression than ever before says co-developer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Miscellaneous&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://medium.com/architecting-a-life/aab51112beda&quot;&gt;What does 'being rich' mean to you?&lt;/a&gt; Everyone should consider this and have an answer to himself on this question.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://the-pastry-box-project.net/mat-marquis/2013-july-27/&quot;&gt;»I make Websites« says Mat Marquis&lt;/a&gt; and I can only second this great article on The Pastry Box project.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://helloanselm.com/2013/handle-deprecated-unmaintained-repositories/&quot;&gt;How to deal with unmaintained and/or deprecated Open Source repositories&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Multi Device&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Techniques for &lt;a href=&quot;http://webuild.envato.com/blog/techniques-for-mobile-and-responsive-cross-browser-testing/&quot;&gt;mobile and responsive cross-browser testing&lt;/a&gt; describes several ways you can go to check your webapp / website.&lt;/li&gt;
+    &lt;li&gt;If you live in Europe, consider attending the &lt;a href=&quot;http://lanyrd.com/2013/web-platform-doc-sprint-zurich/&quot;&gt;WebPlatform Doc Sprint in Zurich, Switzerland&lt;/a&gt; on August, 28th where you can help maintaining the WebPlatform and evolve the web while meeting the guys of the CSSWG and other cool people.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Performance&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Man, this dude is rad! Jake again wrote a blog post explaining how to &lt;a href=&quot;http://jakearchibald.com/2013/solving-rendering-perf-puzzles/&quot;&gt;solve rendering performance puzzles&lt;/a&gt;. Super interesting!&lt;/li&gt;
+    &lt;li&gt;RIBS will be a &lt;a href=&quot;https://github.com/ngryman/ribs&quot;&gt;Responsive Images Backend Server&lt;/a&gt;. Cool thing and definitely something to keep an eye on.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://ianstormtaylor.com/media-queries-are-a-hack/&quot;&gt;This article by Ian Storm Taylor&lt;/a&gt; is published already a while but still, this is a very important topic how we could improve the work with CSS and today's 'media queries'.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;JavaScript is not safe by default, we all know that. But now&amp;nbsp;&lt;a href=&quot;https://threatpost.com/javascript-and-timing-attacks-used-to-steal-browser-data/101559&quot;&gt;researchers found&lt;/a&gt;&amp;nbsp;something very serious you might consider if you have a platform relying on security of JavaScript.&lt;/li&gt;
+    &lt;li&gt;A cool &lt;a href=&quot;http://bbinto.wordpress.com/2013/08/03/grunt-your-way-through-frontend-performance-optimization/&quot;&gt;list of Grunt tools&lt;/a&gt; you should consider to use in your build process.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/jehna/VerbalExpressions&quot;&gt;VerbalExpressions&lt;/a&gt; helps you understanding RegularExpressions and gives you a layer of abstraction (good for maintainability).&lt;/li&gt;
+    &lt;li&gt;A &lt;a href=&quot;https://github.com/bramstein/fontloader&quot;&gt;FontLoader polyfill&lt;/a&gt; is now on github. It implements the&amp;nbsp;&lt;/span&gt;CSS Font Load Events Module Level 3 via JavaScript.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Au revoir!&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Thu, 08 Aug 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/6</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/6</guid>
+			</item>
+		
+			<item>
+				<title>5</title>
+				<description>&lt;p&gt;Servus (this is how you greet people in Bavaria, Germany),&lt;br&gt;&lt;br&gt;
+I welcome you to the fifth issue of the Web Dev Reading List. Hope you enjoy this week's issue with again a lot of new things that might be interesting for you.&lt;/p&gt;
+
+&lt;p&gt;At least take away what Oli &lt;a href=&quot;http://the-pastry-box-project.net/oli-studholme/2013-aug-2/&quot;&gt;wrote today on ThePastryBox Project&lt;/a&gt;:&amp;nbsp;&lt;/p&gt;
+
+&lt;blockquote class=&quot;quote&quot;&gt;&quot;The web is not TV, or print design, or any of the things that have come before.&lt;i&gt; It is what it is.&lt;/i&gt; And we’re still collectively figuring it out.&quot;&lt;/blockquote&gt;
+
+&lt;h3&gt;Various&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Jake shows how to &lt;a href=&quot;http://jakearchibald.com/2013/animated-line-drawing-svg/&quot;&gt;animate line-drawings within SVG&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Chris Heilmann tested the &lt;a href=&quot;http://christianheilmann.com/2013/07/31/playing-with-leapmotion-for-accessibility/&quot;&gt;Leap Motion to handle accessibility&lt;/a&gt; in a cool way.&lt;/li&gt;
+    &lt;li&gt;Brian Grinstead published his &lt;a href=&quot;https://github.com/bgrins/devtools-snippets&quot;&gt;Chrome DevTool snippets&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;WebKit &lt;a href=&quot;https://bugs.webkit.org/show_bug.cgi?id=110252&quot;&gt;now supports srcset&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Search and Find all &lt;a href=&quot;http://sublimepackages.com/#/&quot;&gt;SublimeText packages&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Collaboration platforms for Writers seem to be the new 'hot shit'. &lt;a href=&quot;https://quip.com/&quot;&gt;Quip&lt;/a&gt; is the newest but I also can recommend &lt;a href=&quot;https://editorially.com/&quot;&gt;Editorially&lt;/a&gt;. But anyway they are different in handling so check out both to find our personal tool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Load &lt;a href=&quot;http://mathiasbynens.be/notes/xhr-responsetype-json&quot;&gt;JSON data in an XHR request&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Performance&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Jamie Mason's &lt;a href=&quot;http://jamiemason.github.io/ImageOptim-CLI/&quot;&gt;Image Optimization Table&lt;/a&gt; is back. In the last WDRL you probably found this link broken because he removed the data to improve it. Now it's even better data you should have a look at.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://blog.grayghostvisuals.com/grunt/image-optimization/&quot;&gt;Optimize images losslessly with grunt&lt;/a&gt; and imageoptim-cli. A how-to.&lt;/li&gt;
+    &lt;li&gt;Sencha published an huge article on &lt;a href=&quot;http://www.sencha.com/blog/5-myths-about-mobile-web-performance/&quot;&gt;myths about mobile web performance&lt;/a&gt;. Interesting insights.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Responsive&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/ResponsiveImagesCG/paris-meetup/blob/master/README.md&quot;&gt;RICG is hosting a meetup&lt;/a&gt; at Mozilla in Paris, France this September. Join if you can and discuss about Responsive Images.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/BBC-News/wraith&quot;&gt;Compare automated screenshots of responsive websites using wraith&lt;/a&gt; – a tool by the BBC using slimerJS or PhantomJS and ImageMagick to solve the problem of different rendering results.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Deployment&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Chris Coyier compares the various techniques &lt;a href=&quot;http://css-tricks.com/deployment/&quot;&gt;how you can handle deployment&lt;/a&gt; of a project to a server.&lt;/li&gt;
+    &lt;li&gt;While we're there, Muricio Wolff shows you &lt;a href=&quot;http://www.bitbonsai.com/git-deploy-website-5steps/&quot;&gt;how to deploy simply via git&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So far, see you next week!&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Fri, 02 Aug 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/5</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/5</guid>
+			</item>
+		
+			<item>
+				<title>4</title>
+				<description>&lt;p&gt;Yo!&lt;br&gt;&lt;br&gt;
+I didn't expect my list to grow so well over the first four weeks so I am a little bit overwhelmed by the response from you. Thank you so much for your support – keep it coming and share the love to my tiny newsletter with your friends.&lt;/p&gt;
+
+&lt;p&gt;Last week not much happened – that way I turned into the announced 'regular' every other week mode. Well, I'd say it really depends how much happened in the web industry. If there is much to tell, I keep you posted, if there's nothing or not enough to tell, you won't get a message. In that case, enjoy the sunny days (I hope it is as here) and relax a little bit.&lt;/p&gt;
+
+&lt;h3&gt;Design&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;It is &lt;a href=&quot;http://www.npr.org/blogs/thisisnpr/2013/07/18/203014226/small-screen-big-stories-npr-comes-to-google-glass&quot;&gt;Responsive Webdesign when it works everywhere&lt;/a&gt; – even on Google Glass! A little but nice article about Glass optimization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://minifiedjs.com/&quot;&gt;MinifiedJS&lt;/a&gt; claims to be a library only 4kb big with the full power of jQuery and browser support. This sounds great, maybe you should give it a try in your next project?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Jamie Mason created a &lt;a href=&quot;http://jamiemason.github.io/ImageOptim-CLI/&quot;&gt;comparison table on image optimization&lt;/a&gt; tools and its results. Quite interesting numbers and results you should have a look at.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://bower.io/&quot;&gt;Bower 1.0&lt;/a&gt; is out.&lt;/li&gt;
+    &lt;li&gt;IE11 will get many new features in its DevTools. The &lt;a href=&quot;http://www.sitepoint.com/ie11-developer-tools/&quot;&gt;preview looks pretty neat&lt;/a&gt; and there will be quite some really cool features.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/shama/grunt-hub&quot;&gt;GruntHub&lt;/a&gt; lets you manage several grunt.js projects in parallel. This is cool!&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/blai/grunt-express&quot;&gt;Grunt Express&lt;/a&gt; lets you start an Express server including LiveReload etc. all in one.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Performance&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Luke wrote a summary to &lt;a href=&quot;http://www.lukew.com/ff/entry.asp?1747&quot;&gt;Page Speed is only the beginning&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Chris Coyier &lt;a href=&quot;http://css-tricks.com/does-flexbox-have-a-performance-problem/&quot;&gt;researched flexbox for a performance lack&lt;/a&gt;. Fortunately Paul Irish jumped in with some &lt;a href=&quot;http://css-tricks.com/does-flexbox-have-a-performance-problem/#comment-490956&quot;&gt;interesting feedback&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Oh man, did you know that &lt;a href=&quot;http://www.mobify.com/blog/data-uris-are-slow-on-mobile/&quot;&gt;using Data-URIs on mobile&lt;/a&gt; could slow down your page massively? Better re-think this workflow. Guesses are that it's the base64 encoding which would make pretty much sense. Anyway, consider using files / sprites again to speed up your site on mobile devices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Other&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Well, you know about the inconsistencies of CSS implementations in the different browsers, right? Here's another: &lt;a href=&quot;https://etherpad.mozilla.org/bg-size&quot;&gt;background-size&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All the best and rock on!&lt;br&gt;
+    -Anselm&lt;/p&gt;
+</description>
+				<pubDate>Wed, 24 Jul 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/4</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/4</guid>
+			</item>
+		
+			<item>
+				<title>3</title>
+				<description>&lt;p&gt;Howdy,&lt;br&gt;&lt;br&gt;
+This is already the third message I am writing to you. If you're new here, I welcome you! And now have fun reading this week's list:&lt;/p&gt;
+
+&lt;h3&gt;General&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Aral Balkan will create an Open Platform that competes on user experience in the consumer space: &lt;a href=&quot;http://aralbalkan.com/notes/codename-prometheus/&quot;&gt;Codename Prometheus&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://everydaydesigner.net/&quot;&gt;EveryDayDesigner&lt;/a&gt;&amp;nbsp;is a platform tackling the everyday web industry issues and some good content.&lt;/li&gt;
+    &lt;li&gt;A collection of '&lt;a href=&quot;https://github.com/rossjones/alternative-internet&quot;&gt;The New Internet&lt;/a&gt;' – tools for a more decentralized web&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.netmagazine.com/features/responsive-design-we-are-not-there-yet&quot;&gt;The tiny unknown and missing parts for Responsive Web Development&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML, CSS, JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Dudley Storey shows you how to achieve good performance by using CSS Animations but also using the power of JavaScript to add the functional greatness for your animation in his article: &lt;a href=&quot;http://demosthenes.info/blog/709/The-Best-Of-All-Possible-Worlds-Hybridizing-JavaScript-With-CSS-Animations&quot;&gt;The Best Of All Possible Worlds: Hybridizing JavaScript With CSS Animations&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://brian.sol1.net/svg/2013/07/09/group-and-conquer-timing-groups-for-your-synchronization-woes/&quot;&gt;Group and conquer: timing groups for your synchronization woes&lt;/a&gt;&amp;nbsp;– Synchronization with the new Web Animations Spec&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;Create &lt;a href=&quot;http://css-tricks.com/striped-background-gradients/&quot;&gt;striped backgrounds&lt;/a&gt; with CSS gradients in Sass.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://hacks.mozilla.org/2013/07/web-audio-api-comes-to-firefox/&quot;&gt;Web Audio API is coming to Firefox&lt;/a&gt;. It will be included in v24 and is already in testing on Firefox Nightly and Aurora.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://h5bp.github.io/Effeckt.css/dist/&quot;&gt;Effeckt.css&lt;/a&gt;&amp;nbsp;runs all the cool animation demos you're seeing around in some articles but this is for real usage now, and it's crowd-funded by h5bp.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Rob Wierzbowski wrote a &lt;a href=&quot;https://github.com/robwierzbowski/jekyll-picture-tag&quot;&gt;Jekyll plugin&lt;/a&gt; to maintain and serve responsive images on a Jekyll based static website (e.g. github pages).&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;Jack Franklin lets you browser all your current issues across your github projects in his tool called&amp;nbsp;&lt;a href=&quot;https://github.com/jackfranklin/githubissuebrowser&quot;&gt;githubissuebrowser&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This my dear readers is all for this week. Hope you enjoyed it again!&lt;/p&gt;
+
+&lt;p&gt;Cheers,&lt;br&gt;
+    Anselm&lt;/p&gt;
+</description>
+				<pubDate>Fri, 12 Jul 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/3</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/3</guid>
+			</item>
+		
+			<item>
+				<title>2</title>
+				<description>&lt;p&gt;Hey all,&lt;br&gt;&lt;br&gt;
+welcome to the second issue of my WDRL (Web Development Reading List) and I am excited to have you on board while the list of subscribers is growing rapidly.&lt;br&gt;
+If you have feedback, let me know by sending an email to me. You can also propose links by &lt;a href=&quot;https://twitter.com/helloanselm&quot;&gt;mentioning me on twitter&lt;/a&gt; with the link and hashtag #wdrl.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;It is a good advice to set this email adress (readinglist@helloanselm.com) to the whitelist.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;This week's letter contains some fresh articles and tools:&lt;br&gt;
+
+&lt;h3&gt;Design&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.goodui.org/&quot;&gt;GoodUI&lt;/a&gt; shares best practices on User Interface Design&lt;/li&gt;
+    &lt;li&gt;Think outside your little box: &lt;a href=&quot;http://alistapart.com/article/designing-for-services-beyond-the-screen&quot;&gt;Designing for Services Beyond the Screen&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Ian Storm Taylor wrote on his &lt;a href=&quot;http://ianstormtaylor.com/refactoring-githubs-design/&quot;&gt;GitHub Redesign&lt;/a&gt; work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;A new &lt;a href=&quot;http://eightmedia.github.io/yass.js/&quot;&gt;srcset Polyfill called Yass&lt;/a&gt; appeared on github. Looks cool!&lt;/li&gt;
+    &lt;li&gt;Write your Google Docs in Markdown with &lt;a href=&quot;http://marksteve.com/downdoc/&quot;&gt;DownDoc&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.typography.com/cloud/the-fonts/&quot;&gt;H&amp;amp;FJ launched WebFonts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML, CSS, JavaScript&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.mademyday.de/css-height-equals-width-with-pure-css.html&quot;&gt;Keep the aspect-ratio of your elements&lt;/a&gt; with a CSS trick – better we had a standard but this is a nifty workaround.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://dev.w3.org/fxtf/compositing-1/&quot;&gt;CSS Background Blend Modes&lt;/a&gt; have been &lt;a href=&quot;http://blogs.adobe.com/webplatform/2013/06/24/css-background-blend-modes-are-now-available-in-chrome-canary-and-webkit-nightly/&quot;&gt;implemented&lt;/a&gt; in Chrome Canary and WebKit Nightly. This is cool as the effect could be useful for many things but unless it is implemented in all major browsers it is just an 'oh hey, look there is a new showcase!'.&lt;/li&gt;
+    &lt;li&gt;My friend Hans wrote &lt;a href=&quot;http://drublic.de/blog/accessible-dialogs-modals/&quot;&gt;how to make modal windows accessible&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Jake Archibald wrote a piece of text in which he is completely right saying &lt;a href=&quot;http://jakearchibald.com/2013/progressive-enhancement-still-important/&quot;&gt;Progressive enhancement is still important&lt;/a&gt;. In times of today I often recognized also that this sometimes is already forgotten in favor of all new features that come into modern browsers.&lt;/li&gt;
+    &lt;li&gt;Chris Coyier gives a hint how to &lt;a href=&quot;http://css-tricks.com/centering-percentage-widthheight-elements/&quot;&gt;center elements&lt;/a&gt; (horizontally and vertically) when they its width in percentages.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Mr simurai shares a thought for &lt;a href=&quot;https://medium.com/p/8f433689736f&quot;&gt;better font-size / web components size control&lt;/a&gt; mixing px and ems to gain more flexibility.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Hints&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Did you know that on Android when you're using CSS' `text-rendering: optimizeLegibility;` your users get to &lt;a href=&quot;https://twitter.com/Fyrd/status/349367667410485248&quot;&gt;see Androids default font instead&lt;/a&gt; of your webfont?&lt;/li&gt;
+    &lt;li&gt;GitHub has now &lt;a href=&quot;https://github.com/blog/1547-release-your-software&quot;&gt;support for Releases&lt;/a&gt;. Any you can finally &lt;a href=&quot;https://github.com/blog/1545-deleting-files-on-github&quot;&gt;delete files&lt;/a&gt;&amp;nbsp;online.&lt;/li&gt;
+    &lt;li&gt;Nicholas Zakas gave a presentation at Velocity Conf saying &quot;&lt;a href=&quot;http://de.slideshare.net/nzakas/enough-withthejavascriptalready&quot;&gt;Enough with the JavaScript already&lt;/a&gt;&quot; – if you are using Angular.js or similar frameworks this is a read you shouldn't miss out.&lt;/li&gt;
+    &lt;li&gt;Did you know you could &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-srcdoc&quot;&gt;access content of an iframe&lt;/a&gt; if configured properly via JavaScript?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The next issue will come soon. Until then, invite your friends to &lt;a href=&quot;http://wdrl.helloanselm.com/&quot;&gt;join the list&lt;/a&gt;. I still have some space left in my list :-)&lt;/p&gt;
+
+&lt;p&gt;Cheers,&lt;br&gt;
+    Anselm&lt;/p&gt;
+</description>
+				<pubDate>Thu, 04 Jul 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/2</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/2</guid>
+			</item>
+		
+			<item>
+				<title>1</title>
+				<description>&lt;p&gt;Hey all,&lt;br&gt;&lt;br&gt;
+I am super happy to share the first issue of WDRL (Web Development Reading List) with you.&lt;br&gt;
+If you have feedback, let me know by sending an email to me.&lt;/p&gt;
+
+&lt;p&gt;But now let's start with the list:&lt;/p&gt;
+
+&lt;h3&gt;Performance&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Ian Feather shares his in-depth knowledge on &lt;a href=&quot;http://ianfeather.co.uk/web-fonts-and-the-critical-path/&quot;&gt;WebFonts and its Critical Path&lt;/a&gt; explaining you FOUT, async load methods and font optimization techniques.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://speedcurve.com/&quot;&gt;Speed Curve&lt;/a&gt; is a performance monitoring tool for your website. It lets you see how you compare with other sites and provides you very detailed and nice infographic data of your website.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;The &lt;a href=&quot;http://philipwalton.com/articles/introducing-html-inspector/&quot;&gt;HTML-Inspector&lt;/a&gt; not only is a spec validator for your code but also can check coding conventions &amp;ndash; super interesting tool!  &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://filamentgroup.com/lab/introducing_grumpicon/&quot;&gt;GrumpIcon&lt;/a&gt;&lt;span&gt; by Filament Group is a tool that automatically creates fallback PNG-files for your SVG files. Easy, cool.&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;A browser AddOn to see &lt;/span&gt;&lt;a href=&quot;http://tosdr.org/&quot;&gt;how evil the Terms of Service are&lt;/a&gt;&lt;span&gt; you are currently accepting.&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;Have you known that you can &lt;a href=&quot;http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices&quot;&gt;automate your testing when using grunt&lt;/a&gt; with `grunt server`? Matt Bailey shows you how.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML, CSS, JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;How to easily &lt;a href=&quot;http://css-tricks.com/the-javascript-behind-touch-friendly-sliders/&quot;&gt;add touch support (including pointer actions) in Sliders&lt;/a&gt; on CSS-Tricks.&lt;/li&gt;
+    &lt;li&gt;Lee Brimelow shows how to easily use the &lt;a href=&quot;http://www.leebrimelow.com/native-methods-jquery/&quot;&gt;Native Equivalents of jQuery Functions&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.2ality.com/2013/06/basic-javascript.html&quot;&gt;Basic JavaScript: An introduction to the Language&lt;/a&gt; could have been a book but is a very detailed and simple written article for Newbies to JavaScript.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/dypsilon/frontend-dev-bookmarks&quot;&gt;Frontend-Dev-Bookmarks&lt;/a&gt; is a list living on github containing a massive number of items for frontend development related things. Good if you are searching for new resources to improve your skills or just to read nice articles.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/ResponsiveImagesCG/picture-element/wiki/Relevant-resources&quot;&gt;Relevant Resources for Responsive Images&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;Brian Birtles &lt;a href=&quot;http://brian.sol1.net/svg/2013/06/26/introducing-web-animations/&quot;&gt;introduces Web Animations&lt;/a&gt; which extend CSS and SVG animations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And that is the first issue of the WDRL. If you liked it, spread the word by linking to the website:&lt;br&gt;
+    &lt;a href=&quot;http://wdrl.helloanselm.com/&quot;&gt;http://wdrl.helloanselm.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Best,&lt;br&gt;
+Anselm&lt;/p&gt;
+</description>
+				<pubDate>Thu, 27 Jun 2013 00:00:00 +0200</pubDate>
+				<link>http://localhost:4001/archive/1</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/1</guid>
+			</item>
+		
+	</channel>
+</rss>

@@ -1,0 +1,14 @@
+host: 0.0.0.0
+port: 4001
+url: http://localhost:4001
+permalink: /archive/:title
+destination: _site
+future: false
+show_drafts: nil
+markdown: redcarpet
+safe: true
+lsi: false
+pygments: true
+sass:
+    syntax: scss        # scss|sass
+    style:  compressed  # nested|expanded|compact|compressed

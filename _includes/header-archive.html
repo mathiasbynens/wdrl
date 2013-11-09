@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Issue {{ page.title }} | Web Development Reading List</title>
+		<meta name="description" content="The Archive of a comprehensive, handcrafted Reading List for webdevelopers.">
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="alternate" type="application/atom+xml" title="RSS Feed for Web Development Reading List" href="/feed.xml">
+
+		<script type="text/javascript">
+			(function() {
+			var config = {
+				kitId: 'klk5sar',
+				scriptTimeout: 3000
+			};
+			var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+			})();
+	</script>
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<header class="page__header">
+			<nav class="page__nav">
+				<ul>
+					<li><a href="../">Home</a></li>
+					<li><a class="active" href="../archive/">Archive</a></li>
+					<li><a href="../about/">About</a></li>
+				</ul>
+			</nav>
+
+			<figure class="page__header__logo">
+				<p>WDRL</p>
+			</figure>
+
+			<h1>Web Development Reading List</h1>
+			<p>A handcrafted, carefully selected list of web development related resources.<br>
+				Published usually every week.</p>
+		</header>
+
+		<main class="page__main page__archive">
+			<h2>Issue {{ page.title }}</h2>
+			<time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>

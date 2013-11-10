@@ -10,33 +10,6 @@ module.exports = function (grunt) {
 			'<%= grunt.template.today("yyyy-mm-dd") %> */'
 		},
 
-		jshint: {
-			all: [
-				'Gruntfile.js',
-				'js/*.js'
-			],
-			options: {
-				jshintrc: '.jshintrc'
-			}
-		},
-
-		// Build modernizr
-		modernizr: {
-			devFile: 'js/vendor/modernizr-2.6.2.js',
-			outputFile : 'dist/js/vendor/modernizr-for-<%= pkg.version %>.min.js',
-
-			extra: {
-				shiv: true,
-				mq: true
-			},
-
-			// Minify
-			uglify: true,
-
-			// Files
-			files: ['js/**/*.js', 'scss/**/*.scss']
-		},
-
 		sass: {
 			dev: {
 				options: {
@@ -62,41 +35,10 @@ module.exports = function (grunt) {
 			deploy: ['dist']
 		},
 
-		requirejs: {
-			compile: {
-				options: {
-					baseUrl: 'js/',
-					mainConfigFile: 'js/config.js',
-					include: ['Vendor/require'],
-					out: 'dist/js/main-<%= pkg.version %>.min.js'
-				}
-			}
-		},
-
-		copy: {
-			deploy: {
-				files: [{
-					src: ['js/**'],
-					dest: 'dist/'
-				}]
-			}
-		},
-
 		watch: {
 			scss: {
 				files: ['scss/**/*.scss'],
 				tasks: 'sass:dev',
-				options: {
-					livereload: true
-				}
-			},
-
-			js: {
-				files: [
-					'Gruntfile.js',
-					'js/*.js'
-				],
-				tasks: 'jshint',
 				options: {
 					livereload: true
 				}
@@ -115,25 +57,19 @@ module.exports = function (grunt) {
 	});
 
 	// Load some stuff
-	grunt.loadNpmTasks('grunt-modernizr');
-	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-contrib-requirejs');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-connect');
 
 	// A task for development
-	grunt.registerTask('dev', ['jshint', 'sass:dev']);
+	grunt.registerTask('dev', ['sass:dev']);
 
 	// A task for deployment
-	grunt.registerTask('deploy', ['jshint', 'clean', 'modernizr', 'sass:deploy', 'requirejs', 'copy']);
+	grunt.registerTask('deploy', ['clean', 'sass:deploy']);
 
 	// Default task
-	grunt.registerTask('default', ['jshint', 'sass:dev', 'requirejs', 'copy']);
-
-	// Travis CI task
-	grunt.registerTask('travis', ['jshint']);
+	grunt.registerTask('default', ['sass:dev']);
 
 };

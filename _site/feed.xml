@@ -7,6 +7,64 @@
 		<atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>17</title>
+				<description>&lt;p&gt;Welkom!&lt;br&gt;&lt;br&gt;
+just another week passed and it&amp;#39;s time for the next issue of the Web Development Reading List. Thanks to your support the list grew massively which is awesome!&lt;/p&gt;
+
+&lt;p&gt;As this project is growing, I switched the website code to use Jekyll. All archives from now on are written in Markdown language and are &lt;a href=&quot;http://wdrl.helloanselm.com/archive/&quot;&gt;available on the archive page&lt;/a&gt;.&lt;br&gt;
+The bigger news is, &lt;strong&gt;there is now an &lt;a href=&quot;http://wdrl.helloanselm.com/feed.xml&quot;&gt;RSS feed for the WDRL&lt;/a&gt;&lt;/strong&gt; as many of you wished.&lt;/p&gt;
+
+&lt;h3&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Another &lt;a href=&quot;http://www.sitepoint.com/offline-first-next-progressive-enhancement-technique/&quot;&gt;Offline-First article&lt;/a&gt;, this time by sitepoint. It contains a good list to consider before you build a web-app.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zurb.com/ink/&quot;&gt;Ink&lt;/a&gt; is a responsive E-Mail template starter-kit by zurb. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you like to manage your Pull-Requests in the command-line, &lt;a href=&quot;https://gist.github.com/gnarf/5406589&quot;&gt;check this gist&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Create an living Styleguide from Sass and Markdown files with &lt;a href=&quot;https://github.com/nopr/sassdown&quot;&gt;Sassdown&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hacks.mozilla.org/2013/11/firefox-developer-tools-episode-27-edit-as-html-codemirror-more/&quot;&gt;Firefox DevTools News&lt;/a&gt;: You can now edit in HTML, define color format, swatch previews, image previews, codemirror is used in several places, log reflows.&lt;/li&gt;
+&lt;li&gt;Remote Debug is an initiative to &lt;a href=&quot;http://remotedebug.org/&quot;&gt;unify DevTools protocols&lt;/a&gt; of all browsers.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.dobambam.com/&quot;&gt;bambam!&lt;/a&gt; is a new collaboration tool. Looks really good, so you might want to give it a try?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML &amp;amp; CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allex Russell on &lt;a href=&quot;http://infrequently.org/2013/11/long-term-web-semantics/&quot;&gt;Long Term Web Semantics and what semantic means&lt;/a&gt;. Not the shortest but a very good article.&lt;/li&gt;
+&lt;li&gt;Browsers can only animate very few CSS properties really fast. &lt;a href=&quot;http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/&quot;&gt;This article&lt;/a&gt; shows how you achieve best performance. &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sarasoueidan.com/blog/css-shapes/index.html&quot;&gt;Creating non-rectangular layouts with CSS Shapes&lt;/a&gt;. Don&amp;#39;t know what CSS Shapes are and do? Read this article – it eplains nearly everything.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://infrequently.org/2013/11/long-term-web-semantics/&quot;&gt;About long-term web semantics&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You&amp;#39;re not pleased with the default Google Maps style for your integration? Then choose one of the themes at &lt;a href=&quot;http://snazzymaps.com/&quot;&gt;SnazzyMaps&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Unicode? ASCII? Well, &lt;a href=&quot;http://the-pastry-box-project.net/oli-studholme/2013-october-8/&quot;&gt;we still have something way to go here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.stevesouders.com/blog/2013/11/07/prebrowsing/&quot;&gt;Steve Souders explains what Pre-browsing means&lt;/a&gt; today and how you can help the browser to look ahead for the right resources.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;JavaScript&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Please do &lt;a href=&quot;http://www.slideshare.net/guypod/third-partyperformancev3&quot;&gt;care about Third-Party scripts you&amp;#39;re using in your website&lt;/a&gt;. Guy Podjarny has a good slidedeck why this matters so much.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;+ beyond&amp;hellip;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Don&amp;#39;t know what conference you want to attend? Here is a &lt;a href=&quot;http://rachelnabors.com/2013/11/04/2013-conference-roundup/&quot;&gt;good conference guide by Rachel Nabors&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;»So, why don’t you join me in tackling some of the little things that might be distracting your attention?«, &lt;a href=&quot;http://the-pastry-box-project.net/emma-boulton/2013-november-9/&quot;&gt;Emma Boulton says and she&amp;#39;s right&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Groetjes!&lt;br&gt;
+-Anselm&lt;/p&gt;
+</description>
+				<pubDate>Sat, 09 Nov 2013 11:45:15 +0100</pubDate>
+				<link>http://localhost:4001/archive/17</link>
+				<guid isPermaLink="true">http://localhost:4001/archive/17</guid>
+			</item>
+		
+			<item>
 				<title>16</title>
 				<description>&lt;p&gt;Holà!&lt;br&gt;&lt;br&gt;I am back with another weekly reading list after an exhausting week filled with workshops and conferences. Thanks for keeping up the support to this list, you are awesome! :)&lt;/p&gt;
 

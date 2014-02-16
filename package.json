@@ -1,34 +1,35 @@
 {
-	"name": "ReadingList",
-	"title": "Web Development Reading List",
-	"description": "A comprehensive web development focused Reading List.",
-	"version": "1.0.0",
-	"homepage": "helloanselm.com/readinglist",
-	"author": {
-		"name": "Anselm Hannemann",
-		"url": "http://helloanselm.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/anselmh/readinglist.git"
-	},
-	"bugs": {
-		"url": "https://github.com/anselmh/readinglist/issues"
-	},
-	"license": "MIT",
-	"scripts": {
-		"test": "grunt travis --verbose"
-	},
-	"engines": {
-		"node": ">=0.6"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"grunt": "0.4.x",
-		"grunt-contrib-clean": "0.4.0",
-		"grunt-contrib-watch": "0.3.1",
-		"grunt-contrib-sass": "0.3.0",
-		"grunt-contrib-connect": "0.2.0"
-	},
-	"keywords": []
+  "name": "ReadingList",
+  "title": "Web Development Reading List",
+  "description": "A comprehensive web development focused Reading List.",
+  "version": "1.0.0",
+  "homepage": "helloanselm.com/readinglist",
+  "author": {
+    "name": "Anselm Hannemann",
+    "url": "http://helloanselm.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anselmh/readinglist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anselmh/readinglist/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-clean": "0.4.0",
+    "grunt-contrib-watch": "0.3.1",
+    "grunt-contrib-sass": "0.3.0",
+    "grunt-contrib-connect": "0.2.0",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "keywords": []
 }

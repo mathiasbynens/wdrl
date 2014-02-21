@@ -29,6 +29,15 @@ body {
 	text-align: center;
 }
 
+@media (max-width: 25em) {
+	font-size: 1em;
+}
+
+ul,
+ol {
+	padding: 0 0 0 1em;
+}
+
 a {
 	color: $linkColor;
 }

@@ -4,6 +4,10 @@
 
 /* Sign Up Form */
 
+	.latest__post a {
+		color: $colorKey;
+	}
+
 	.form__signup--poweredby {
 		color: $grey-mid;
 
@@ -23,8 +27,8 @@
 
 		-webkit-appearance: none;
 		   -moz-appearance: none;
-		    -ms-appearance: none;
-		        appearance: none;
+			-ms-appearance: none;
+				appearance: none;
 	}
 
 	.form__signup--submit {

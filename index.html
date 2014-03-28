@@ -4,6 +4,9 @@ title: "Home"
 ---
 
 <form class="form__signup" action="https://tinyletter.com/wdrl" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/wdrl', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+	<p class="latest__post">{% for post in site.posts limit:1 %}<a href="{{ BASE_PATH }}{{ post.url }}">Check out the latest issue {{ post.title }}</a>{% endfor %}.</p>
+
 	<p>
 		<label for="tlemail">Sign up to get the Newsletter:</label>
 	</p>

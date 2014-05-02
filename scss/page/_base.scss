@@ -27,10 +27,10 @@ body {
 	font-size: 1.5em;
 	line-height: 1.4;
 	text-align: center;
-}
 
-@media (max-width: 35em) {
-	font-size: 1em;
+	@media (max-width: 35em) {
+		font-size: 1em;
+	}
 }
 
 ul,

@@ -8,9 +8,20 @@ title: "About"
 This project is an attempt to filter and concatenate all the web development links that pop up every single day. The Web Development Reading List aims to filter those links for you so you stay up to date about the latest technologies and techniques but don’t need to read every link you find in the wild.
 
 ----
+
+> ![](https://pbs.twimg.com/profile_images/2016492750/profile.jpg) “The ‘best web developer newsletter award’ goes to wdrl.info #personalnetawards”—[Bastian Allgeier](http://bastianallgeier.com/)
+
+----
+
 ### The Selection Process
 
 I ([Anselm](http://helloanselm.com/)) collect all the links coming up in my twitter, Google+ stream and my own findings into a rough list. The first selection already happens after I read an article &mdash; if it’s well written and has valuable content it will go into the list, otherwise it will be thrown away. You can imagine there is a load of good articles in just one week; it would be too much for a summary as the WDRL aims to be. A second review guarantees that only important articles and topics come up. Usually this results in about 15 links a week.
+
+----
+
+> ![](https://pbs.twimg.com/profile_images/422476220442234880/jlx9HMtr_400x400.jpeg) “It’s pretty fantastic. (…) I read it every week. There's always at least an article or two I’ve missed and the links are usually A+.”—[Addy Osmani](http://addyosmani.com/blog/)
+
+----
 
 ### Why?
 

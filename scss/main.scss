@@ -22,9 +22,6 @@
 @import "page/main";
 @import "page/footer";
 
-// Modules
-@import "modules/box";
-
 // Print Stylesheets
 @media print {
 	@import "media/print";

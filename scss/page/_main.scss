@@ -35,7 +35,7 @@
 		margin: 0.25rem 0 0.25rem 0;
 		padding: 0.75rem 2rem;
 
-		font-family: $fontMain;
+		font-family: $fontSecondary;
 		background: $buttonPositive;
 		color: #fff;
 		border: 0;
@@ -82,6 +82,21 @@
 
 .page__archive li {
 	margin: 0.5em 0;
+}
+
+.page__archive > h2,
+.page__archive > h3 {
+	margin: 1em 0 0 0;
+}
+
+.page__archive > h3 + ul {
+	margin: 0 0 1em 0;
+}
+
+h2,
+h3,
+time {
+	font-family: 'jaf-bernino-sans', sans-serif;
 }
 
 h3 {

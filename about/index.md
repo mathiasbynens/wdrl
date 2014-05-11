@@ -9,7 +9,7 @@ This project is an attempt to filter and concatenate all the web development lin
 
 ----
 
-> ![](https://pbs.twimg.com/profile_images/2016492750/profile.jpg) “The ‘best web developer newsletter award’ goes to wdrl.info #personalnetawards”—[Bastian Allgeier](http://bastianallgeier.com/)
+> ![](http://twitter.com/api/users/profile_image/bastianallgeier?size=bigger) “The ‘best web developer newsletter award’ goes to wdrl.info #personalnetawards”—[Bastian Allgeier](http://bastianallgeier.com/)
 
 ----
 
@@ -19,14 +19,15 @@ I ([Anselm](http://helloanselm.com/)) collect all the links coming up in my twit
 
 ----
 
-> ![](https://pbs.twimg.com/profile_images/422476220442234880/jlx9HMtr_400x400.jpeg) “It’s pretty fantastic. (…) I read it every week. There's always at least an article or two I’ve missed and the links are usually A+.”—[Addy Osmani](http://addyosmani.com/blog/)
+> ![](http://twitter.com/api/users/profile_image/addyosmani?size=bigger) “It’s pretty fantastic. (…) I read it every week. There's always at least an article or two I’ve missed and the links are usually A+.”—[Addy Osmani](http://addyosmani.com/blog/)
 
 ----
 
 ### Why?
 
-As you can imagine this is a time consuming job and I gain no money from it. First, it is that I for myself can also filter between important reads and non-important articles. The other thing is, I heard people complaining that there is too much noise and people are completely overstrained by the mass of news in our industry. To provide a solution for those people WDRL has been created.<br>
-I’ve once tracked the time I spend every week on the WDRL: Roughly 10hrs.<br>
+As you can imagine this is a time consuming job and I gain no money from it. First, it is that I for myself can also filter between important reads and non-important articles. The other thing is, I heard people complaining that there is too much noise and people are completely overstrained by the mass of news in our industry. To provide a solution for those people WDRL has been created.
+
+I’ve once tracked the time I spend every week on the WDRL: Roughly 15hrs.<br>
 **So if you want to support me, <a href="https://www.gittip.com/Anselm%20Hannemann/">GitTip</a> (<script data-gittip-username="Anselm Hannemann"
 		data-gittip-widget="button" src="//gttp.co/v1.js"></script>) me. &hearts;**
 

@@ -5,6 +5,12 @@ title: "About"
 
 ## About WDRL
 
+----
+
+> ![](http://twitter.com/api/users/profile_image/smashingmag?size=bigger) “A great resource, I read every issue.”—[Vitaly Friedman, SmashingMag](http://smashingmagazine.com/)
+
+----
+
 This project is an attempt to filter and concatenate all the web development links that pop up every single day. The Web Development Reading List aims to filter those links for you so you stay up to date about the latest technologies and techniques but don’t need to read every link you find in the wild.
 
 ----

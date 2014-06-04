@@ -1,6 +1,8 @@
 host: 0.0.0.0
 port: 4001
 url: http://wdrl.info
+title: Web Development Reading List
+description: A handcrafted, carefully selected list of web development related resources. Published usually every week.
 permalink: /archive/:title
 destination: _site
 future: false

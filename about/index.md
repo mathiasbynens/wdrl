@@ -33,9 +33,17 @@ I ([Anselm](http://helloanselm.com/)) collect all the links coming up in my twit
 
 As you can imagine this is a time consuming job and I gain no money from it. First, it is that I for myself can also filter between important reads and non-important articles. The other thing is, I heard people complaining that there is too much noise and people are completely overstrained by the mass of news in our industry. To provide a solution for those people WDRL has been created.
 
-I’ve once tracked the time I spend every week on the WDRL: Roughly 15hrs.<br>
-**So if you want to support me, <a href="https://www.gittip.com/Anselm%20Hannemann/">GitTip</a> (<script data-gittip-username="Anselm Hannemann"
-		data-gittip-widget="button" src="//gttp.co/v1.js"></script>) me. &hearts;**
+<a id="donations"></a>
+
+### Support and Donations
+
+I’ve once tracked the time I spend every week on the WDRL: Roughly 10hrs.<br>
+This list is only possible because I love what I do. No company pays for it, I have no ads in my newsletters. I’d love to get financed by my readers, just because they love what I do and find it worth a small donation.
+
+**So if you want to support me, a <a href="https://www.gittip.com/Anselm%20Hannemann/">GitTip</a> (<script data-gittip-username="Anselm Hannemann"
+		data-gittip-widget="button" src="//gttp.co/v1.js"></script>) is highly appreciated! &hearts;**
+
+
 
 <script id='fbl7ps7'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=helloanselm&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbl7ps7');</script>
 
